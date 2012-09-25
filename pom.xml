@@ -67,6 +67,14 @@
 
     </build>
 
+    <modules>
+		<module>bas-drix</module>
+		<module>bas-cris</module>
+		<module>bas-roro</module>
+		<module>bas-frankie</module>
+		<module>bas-albino</module>
+    </modules>
+
     <dependencyManagement>
 		<dependencies>
 
