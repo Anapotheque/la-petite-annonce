@@ -2,7 +2,7 @@
 <h2>Pre-requis</h2>
 <h3>Windows</h3>
 <ul>
-<li><a href="http://tortoisesvn.net/downloads.html" target="_BLANK">Télécharger Turtoise SVN</a>, choisissez en fonction de votre architecture machine (32 ou 64 bits)</li>
+<li><a href="http://tortoisesvn.net/downloads.html" target="_BLANK">Télécharger Tortoise SVN</a>, choisissez en fonction de votre architecture machine (32 ou 64 bits)</li>
 <li><a href="http://maven.apache.org/download.html" target="_BLANK">Télécharger Maven</a>, nous devons definir une version !!! </li>
 </ul>
 
@@ -13,7 +13,7 @@ Personnellement : c:\developpement\projects\java\
 
 <i>Recuperation du project sur le repository distant Google :</i>
 {{{
-mvn co https://la-petite-annonce.googlecode.com/svn/trunk/
+svn co https://la-petite-annonce.googlecode.com/svn/trunk/
 }}}
 
 <i>Compilation du project :</i>
