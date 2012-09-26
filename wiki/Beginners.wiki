@@ -1,6 +1,5 @@
-INSTALLATION DU SOCLE : 
-
-Pre-requis : 
+<h1>INSTALLATION DU SOCLE</h1>
+<b>Pre-requis</b>
 <ul>
 <li>Télécharger SVN</li>
 <li>Télécharger Maven</li>
