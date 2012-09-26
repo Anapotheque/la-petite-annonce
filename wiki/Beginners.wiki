@@ -11,23 +11,29 @@
 Creer un repertoire permetant de stocker votre project.
 Personnellement : c:\developpement\projects\java\
 
+<i>Recuperation du project sur le repository distant Google :</i>
 {{{
 mvn co https://la-petite-annonce.googlecode.com/svn/trunk/
 }}}
 
-{{{
-mvn co https://la-petite-annonce.googlecode.com/svn/trunk/
-}}}
-
+<i>Compilation du project :</i>
 {{{
 mvn clean install 
 }}}
 
+<i>Si la compilation tombe en erreur lors des tests unitaires faites :
+Cette commande permet de skipper les tests unitaires mais c'est un cas qui normalement ne doit pas se produire sauf si qqun à commité n'importe quoi</i>
+{{{
+mvn clean install -Dmaven.test.skip
+}}}
+
+<i>Permet de gerer les dependances ( librairie, project etc etc ) avec eclipse.
+</i>
 {{{
 mvn eclipse:eclipse
 }}}
 
-
+<i>Permet de deployer l'ensemble du project sur le repository : "https://la-petite-annonce.googlecode.com/svn/repo/" </i>
 {{{
 mvn deploy
 }}}
