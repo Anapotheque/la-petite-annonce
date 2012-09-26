@@ -9,7 +9,7 @@
     <artifactId>bas-frankie</artifactId>
     <packaging>jar</packaging>
     <version>0.2-SNAPSHOT</version>
-    <name>Bac Ã  sable de Frankie</name>
+    <name>Bac à sable de Frankie</name>
 
     <dependencies>
 

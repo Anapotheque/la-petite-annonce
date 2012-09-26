@@ -9,7 +9,7 @@
     <artifactId>bas-albino</artifactId>
     <packaging>jar</packaging>
     <version>0.2-SNAPSHOT</version>
-    <name>Bac Ã  sable de Albino</name>
+    <name>Bac à sable de Albino</name>
 
     <dependencies>
 

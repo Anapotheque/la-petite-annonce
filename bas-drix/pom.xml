@@ -9,13 +9,35 @@
     <artifactId>bas-drix</artifactId>
     <packaging>jar</packaging>
     <version>0.2-SNAPSHOT</version>
-    <name>Bac Ã  sable de Drix</name>
+    <name>Bac à sable de Drix</name>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>gwt-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 
     <dependencies>
 
 		<dependency>
-		        <groupId>junit</groupId>
-		        <artifactId>junit</artifactId>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-user</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-servlet</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
        
     </dependencies>
