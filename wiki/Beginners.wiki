@@ -1,6 +1,7 @@
 <h1>INSTALLATION DU SOCLE</h1>
 <b>Pre-requis</b>
+<h2>Windows</h2>
 <ul>
-<li>Télécharger SVN</li>
-<li>Télécharger Maven</li>
+<li><a href="http://tortoisesvn.net/downloads.html" target="_BLANK">Télécharger Turtoise SVN</a>, choisissez en fonction de votre architecture machine (32 ou 64 bits)</li>
+<li><a href="http://maven.apache.org/download.html" target="_BLANK">Télécharger Maven</a>, nous devons definir une version !!! </li>
 </ul>
