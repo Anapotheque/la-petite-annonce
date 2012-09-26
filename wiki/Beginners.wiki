@@ -3,7 +3,7 @@
 <h3>Windows</h3>
 <ul>
 <li><a href="http://tortoisesvn.net/downloads.html" target="_BLANK">Télécharger Tortoise SVN</a>, choisissez en fonction de votre architecture machine (32 ou 64 bits)</li>
-<li><a href="http://maven.apache.org/download.html" target="_BLANK">Télécharger Maven</a>, nous devons definir une version !!! </li>
+<li><a href="http://maven.apache.org/download.html" target="_BLANK">Télécharger Maven</a>, utiliser la version 2.2.1 </li>
 </ul>
 
 <h2>Installation : </h2>
