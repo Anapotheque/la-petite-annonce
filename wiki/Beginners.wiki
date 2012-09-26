@@ -1,8 +1,4 @@
-<style>
- h1{color:#D01010}
-</style>
-
-<h1>INSTALLATION DU SOCLE</h1>
+<h1 style="color:#D01010">INSTALLATION DU SOCLE</h1>
 <b>Pre-requis</b>
 <h2>Windows</h2>
 <ul>
