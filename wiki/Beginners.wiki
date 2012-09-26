@@ -1,7 +1,33 @@
 <h1 style="color:#D01010">INSTALLATION DU SOCLE</h1>
-<b>Pre-requis</b>
-<h2>Windows</h2>
+<h2>Pre-requis</h2>
+<h3>Windows</h3>
 <ul>
 <li><a href="http://tortoisesvn.net/downloads.html" target="_BLANK">Télécharger Turtoise SVN</a>, choisissez en fonction de votre architecture machine (32 ou 64 bits)</li>
 <li><a href="http://maven.apache.org/download.html" target="_BLANK">Télécharger Maven</a>, nous devons definir une version !!! </li>
 </ul>
+
+<h2>Installation : </h2>
+
+Creer un repertoire permetant de stocker votre project.
+Personnellement : c:\developpement\projects\java\
+
+{{{
+mvn co https://la-petite-annonce.googlecode.com/svn/trunk/
+}}}
+
+{{{
+mvn co https://la-petite-annonce.googlecode.com/svn/trunk/
+}}}
+
+{{{
+mvn clean install 
+}}}
+
+{{{
+mvn eclipse:eclipse
+}}}
+
+
+{{{
+mvn deploy
+}}}
