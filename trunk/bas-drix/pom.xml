@@ -7,7 +7,7 @@
 		<version>0.2-SNAPSHOT</version>
     </parent>
     <artifactId>bas-drix</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <version>0.2-SNAPSHOT</version>
     <name>Bac à sable de Drix</name>
 
