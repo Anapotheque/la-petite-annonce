@@ -9,7 +9,6 @@ _Vous pouvez egalement soumettre vos problèmes en ajoutant le detail de ce que 
   * Impossible de faire un _check-out_ depuis mon poste des sources
 
 ----
-<g:plusone size="medium"></g:plusone>
 ===Impossible de faire un _check-out_ depuis mon poste des sources===
 
 {{{
