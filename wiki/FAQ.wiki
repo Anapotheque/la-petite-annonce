@@ -4,10 +4,26 @@ _Vous trouverez ici, des exemples de cas rencontrés durant l'installation et l'
 
 _Vous pouvez egalement soumettre vos problèmes en ajoutant le detail de ce que vous souhaitez faire et ce qui ne marche pas ( ajouter une ligne dans le sommaire marqué "non résolue"_
 
-Sommaire
+==Sommaire==
 
-* Impossible de faire un _check-out_ depuis mon poste des sources
-* Impossible de faire un _check-out_ depuis mon poste des sources
+[WikiSyntax#Wiki-1]* Impossible de faire un _check-out_ depuis mon poste des sources
+[WikiSyntax#Wiki-2]* TEST
+
+----
+[#Wiki-1]
+=Impossible de faire un _check-out_ depuis mon poste des sources=
+
+{{{
+svn co https://la-petite-annonce.googlecode.com/svn/trunk/
+}}}
+Résultat
+{{{
+svn: OPTIONS de 'https://la-petite-annonce.googlecode.com/svn/trunk': Impossible de se connecter au serveur (https://la-petite-annonce.googlecode.com)
+}}}
+
+----
+[#Wiki-2]
+=Impossible de faire un _check-out_ depuis mon poste des sources=
 
 {{{
 svn co https://la-petite-annonce.googlecode.com/svn/trunk/
