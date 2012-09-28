@@ -6,11 +6,10 @@ _Vous pouvez egalement soumettre vos problèmes en ajoutant le detail de ce que 
 
 ==Sommaire==
 
-* [WikiSyntax#Wiki-1] Impossible de faire un _check-out_ depuis mon poste des sources
-* [TEST #Wiki-2]* TEST
+* Impossible de faire un _check-out_ depuis mon poste des sources
+* TEST
 
 ----
-[#Wiki-1]
 ===Impossible de faire un _check-out_ depuis mon poste des sources===
 
 {{{
@@ -22,7 +21,6 @@ svn: OPTIONS de 'https://la-petite-annonce.googlecode.com/svn/trunk': Impossible
 }}}
 
 ----
-[#Wiki-2]
 ===TEST===
 
 {{{
