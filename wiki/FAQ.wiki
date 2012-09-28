@@ -2,7 +2,7 @@
 
 _Vous trouverez ici, des exemples de cas rencontrés durant l'installation et l'exploitation de la plateforme de developpement " *DRIXXOR* "_
 
-_Vous pouvez egalement soumettre votre probleme en ajoutant le detail de ce que vous souhaitez faire et ce qui ne marche pas ( ajouter une ligne dans le sommaire marqué "non résolue"_
+_Vous pouvez egalement soumettre vos problèmes en ajoutant le detail de ce que vous souhaitez faire et ce qui ne marche pas ( ajouter une ligne dans le sommaire marqué "non résolue"_
 
 Sommaire
 
