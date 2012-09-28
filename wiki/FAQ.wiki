@@ -6,10 +6,11 @@ _Vous pouvez egalement soumettre vos problèmes en ajoutant le detail de ce que 
 
 ==Sommaire==
 
-  * Impossible de faire un _check-out_ depuis mon poste des sources
-  * TEST
+  * [#1] Impossible de faire un _check-out_ depuis mon poste des sources
+  * [#2] TEST
 
 ----
+[#1]
 ===Impossible de faire un _check-out_ depuis mon poste des sources===
 
 {{{
@@ -22,6 +23,7 @@ Solution :
 Je pense que je suis derrière un pare feu qui me bloque l'accès...
 
 ----
+[#2]
 ===TEST===
 
 {{{
