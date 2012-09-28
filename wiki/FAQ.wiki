@@ -5,7 +5,6 @@
 {{{
 svn co https://la-petite-annonce.googlecode.com/svn/trunk/
 }}}
-
 Résultat
 {{{
 svn: OPTIONS de 'https://la-petite-annonce.googlecode.com/svn/trunk': Impossible de se connecter au serveur (https://la-petite-annonce.googlecode.com)
