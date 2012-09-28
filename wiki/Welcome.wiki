@@ -1,6 +1,6 @@
 =Welcome sur la plateforme *DRIXXOR*=
 
-[La Faq]
+[FAQ] La Faq
 
 1 - PRE-REQUIS
 2 - DEPLOIEMENT DE TON PREMIER BAS
