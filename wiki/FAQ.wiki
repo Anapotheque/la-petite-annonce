@@ -1,0 +1,12 @@
+Cas d'erreurs rencontrés : 
+
+Impossible de faire un _italic_check-out_italic_ depuis mon poste des sources
+
+{{{
+svn co https://la-petite-annonce.googlecode.com/svn/trunk/
+}}}
+
+Résultat
+{{{
+svn: OPTIONS de 'https://la-petite-annonce.googlecode.com/svn/trunk': Impossible de se connecter au serveur (https://la-petite-annonce.googlecode.com)
+}}}
