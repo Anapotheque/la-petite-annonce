@@ -1,6 +1,6 @@
 Cas d'erreurs rencontrés : 
 
-Impossible de faire un _italic_check-out_italic_ depuis mon poste des sources
+Impossible de faire un _check-out_ depuis mon poste des sources
 
 {{{
 svn co https://la-petite-annonce.googlecode.com/svn/trunk/
