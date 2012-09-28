@@ -6,10 +6,10 @@ _Vous pouvez egalement soumettre vos problèmes en ajoutant le detail de ce que 
 
 ==Sommaire==
 
-  * [#1] Impossible de faire un _check-out_ depuis mon poste des sources
+  * Impossible de faire un _check-out_ depuis mon poste des sources
 
 ----
-[#1]
+<g:plusone size="medium"></g:plusone>
 ===Impossible de faire un _check-out_ depuis mon poste des sources===
 
 {{{
