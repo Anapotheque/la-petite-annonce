@@ -6,8 +6,8 @@ _Vous pouvez egalement soumettre vos problèmes en ajoutant le detail de ce que 
 
 ==Sommaire==
 
-* Impossible de faire un _check-out_ depuis mon poste des sources
-* TEST
+  * Impossible de faire un _check-out_ depuis mon poste des sources
+  * TEST
 
 ----
 ===Impossible de faire un _check-out_ depuis mon poste des sources===
