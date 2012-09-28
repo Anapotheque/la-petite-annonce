@@ -7,7 +7,6 @@ _Vous pouvez egalement soumettre vos problèmes en ajoutant le detail de ce que 
 ==Sommaire==
 
   * [#1] Impossible de faire un _check-out_ depuis mon poste des sources
-  * [#2] TEST
 
 ----
 [#1]
@@ -21,16 +20,5 @@ svn: OPTIONS de 'https://la-petite-annonce.googlecode.com/svn/trunk': Impossible
 Solution :
 
 Je pense que je suis derrière un pare feu qui me bloque l'accès...
-
-----
-[#2]
-===TEST===
-
-{{{
-svn co https://la-petite-annonce.googlecode.com/svn/trunk/
-svn: OPTIONS de 'https://la-petite-annonce.googlecode.com/svn/trunk': Impossible de se connecter au serveur (https://la-petite-annonce.googlecode.com)
-}}}
-
-Solution ?
 
 ----
