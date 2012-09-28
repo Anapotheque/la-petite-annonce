@@ -1,8 +1,6 @@
-ICI ON VA CENTRALISER L'ACCES AU DIFFERENTE SECTION DU WIKI
+=Welcome sur la plateforme *DRIXXOR*=
 
-=Heading1=
-==Heading2==
-===Heading3===
+[La Faq]
 
 1 - PRE-REQUIS
 2 - DEPLOIEMENT DE TON PREMIER BAS
