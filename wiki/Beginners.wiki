@@ -15,6 +15,10 @@ Personnellement : c:\developpement\projects\java\
 {{{
 svn co https://la-petite-annonce.googlecode.com/svn/trunk/
 }}}
+<i>Récupérer le password pour les commit (lien 'googlecode.com password')</i>
+{{{
+https://code.google.com/p/la-petite-annonce/source/checkout
+}}}
 
 <i>Compilation du project :</i>
 {{{
