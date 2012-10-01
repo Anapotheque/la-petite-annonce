@@ -8,6 +8,7 @@ public class DummyTest {
 
 	@Test
 	public void test() {
+		assertFalse(false);
 		assertTrue(true);
 	}
 
