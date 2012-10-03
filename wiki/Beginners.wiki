@@ -1,6 +1,6 @@
 <h1 style="color:#D01010">....PAGE EN COURS DE CONSTRUCTION...</h1>
 
-<img src="http://www.hyperlocalnews.fr/photos/travaux_icone.jpg" />
+<img src="http://www.hyperlocalnews.fr/photos/travaux_icone.jpg" width="30" />
 
 <h1 style="color:#D01010">BUILD DU SOCLE</h1>
 <h2>Pre-requis</h2>
