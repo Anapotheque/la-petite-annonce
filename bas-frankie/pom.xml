@@ -4,11 +4,11 @@
     <parent> 
 		<groupId>fr.corpoconcept</groupId>
 		<artifactId>petiteannonce</artifactId>
-		<version>0.2-SNAPSHOT</version>
+		<version>0.2</version>
     </parent>
     <artifactId>bas-frankie</artifactId>
     <packaging>jar</packaging>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.2</version>
     <name>Bac à sable de Frankie</name>
 
     <dependencies>
