@@ -11,15 +11,14 @@
     <version>0.2-SNAPSHOT</version>
     <name>Bac à sable de Roro</name>
 
+    <balise de merde pour le fail build>
+    
     <dependencies>
-
 		<dependency>
 		        <groupId>junit</groupId>
 		        <artifactId>junit</artifactId>
 		</dependency>
-       
     </dependencies>
-
 </project>
 
 
