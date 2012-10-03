@@ -11,7 +11,7 @@
     <version>0.2-SNAPSHOT</version>
     <name>Bac à sable de Roro</name>
     
-    <dependencies>sdfsd
+    <dependencies>
 		<dependency>
 		        <groupId>junit</groupId>
 		        <artifactId>junit</artifactId>
