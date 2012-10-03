@@ -10,8 +10,6 @@
     <packaging>jar</packaging>
     <version>0.2-SNAPSHOT</version>
     <name>Bac à sable de Roro</name>
-
-    <balise de merde pour le fail build>
     
     <dependencies>
 		<dependency>
