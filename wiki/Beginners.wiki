@@ -1,4 +1,4 @@
-<h1 style="color:#D01010">INSTALLATION DU SOCLE</h1>
+<h1 style="color:#D01010">BUILD DU SOCLE</h1>
 <h2>Pre-requis</h2>
 <h3>Windows</h3>
 <ul>
