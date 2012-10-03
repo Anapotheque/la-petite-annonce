@@ -4,11 +4,11 @@
     <parent> 
 		<groupId>fr.corpoconcept</groupId>
 		<artifactId>petiteannonce</artifactId>
-		<version>0.3-SNAPSHOT</version>
+		<version>0.2-SNAPSHOT</version>
     </parent>
     <artifactId>bas-cris</artifactId>
     <packaging>jar</packaging>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.2-SNAPSHOT</version>
     <name>Bac à sable de Cris</name>
 
     <dependencies>
