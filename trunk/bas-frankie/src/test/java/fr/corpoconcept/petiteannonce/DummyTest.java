@@ -9,6 +9,7 @@ public class DummyTest {
 	@Test
 	public void test() {
 		assertFalse(false);
+		assertFalse(false);
 		assertTrue(true);
 		assertTrue(true);
 	}
