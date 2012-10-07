@@ -40,7 +40,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
 				<configuration>
-		  			<encoding>ISO-8859-1</encoding>
+		  			<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
 	  		</plugin>
 
@@ -53,37 +53,49 @@
 				</configuration>
 	 		</plugin>
 
-	  		<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-		   		<version>${javadoc-plugin.version}</version>
-	 		</plugin>
-
 		</plugins>
 
 		<pluginManagement>
-
 			<plugins>
 
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>gwt-maven-plugin</artifactId>
-					<version>${gwt.version}</version>
-				   	<executions>
-						<execution>
-							<goals>
-						  		<goal>compile</goal>
-							</goals>
-					  	</execution>
-					</executions>
-					<configuration>
-						<server>com.google.appengine.tools.development.gwt.AppEngineLauncher</server>
-						<runTarget>PetiteAnnonce.html</runTarget>
-					</configuration>
-				</plugin>
+				  <plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>gwt-maven-plugin</artifactId>
+						<version>${gwt.version}</version>
+						<executions>
+							  <execution>
+									<goals>
+										  <goal>compile</goal>
+										  <goal>i18n</goal>
+										  <goal>generateAsync</goal>
+									</goals>
+							  </execution>
+						</executions>
 
-			</plugins>	
+						<configuration>
+						  	<runTarget>petiteannonce.html</runTarget>
+						  	<hostedWebapp>${webappDirectory}</hostedWebapp>
+						  	<i18nMessagesBundle>fr.corpoconcept.client.Messages</i18nMessagesBundle>
+						</configuration>
+				  </plugin>
 
+				  <plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-war-plugin</artifactId>
+						<executions>
+						  	<execution>
+								<phase>compile</phase>
+								<goals>
+							  		<goal>exploded</goal>
+								</goals>
+						  	</execution>
+						</executions>
+						<configuration>
+						  	<webappDirectory>${webappDirectory}</webappDirectory>
+						</configuration>
+				  </plugin>
+
+			</plugins>
 		</pluginManagement>	
 
     </build>
@@ -100,21 +112,39 @@
 		<dependencies>
 
 			<dependency>
-				<groupId>com.google.gwt</groupId>
-				<artifactId>gwt-user</artifactId>
-				<version>${gwt.version}</version>
+			  	<groupId>com.google.gwt</groupId>
+			  	<artifactId>gwt-servlet</artifactId>
+			  	<version>${gwt.version}</version>
+			  	<scope>runtime</scope>
 			</dependency>
 
 			<dependency>
-				<groupId>com.google.gwt</groupId>
-				<artifactId>gwt-servlet</artifactId>
-				<version>${gwt.version}</version>
+			  	<groupId>com.google.gwt</groupId>
+			  	<artifactId>gwt-user</artifactId>
+			  	<version>${gwt.version}</version>
+			 	 <scope>provided</scope>
+			</dependency>
+
+			<dependency>
+			  	<groupId>javax.validation</groupId>
+			  	<artifactId>validation-api</artifactId>
+			  	<version>${validation-api.version}</version>
+			  	<scope>test</scope>
+			</dependency>
+
+			<dependency>
+			  	<groupId>javax.validation</groupId>
+			  	<artifactId>validation-api</artifactId>
+			  	<version>${validation-api.version}</version>
+				<classifier>sources</classifier>
+			  	<scope>test</scope>
 			</dependency>
 
 		 	<dependency>
 		     	<groupId>junit</groupId>
 		     	<artifactId>junit</artifactId>
 		     	<version>${junit.version}</version>
+				<scope>test</scope>
 		  	</dependency>
 
 		</dependencies>
@@ -137,10 +167,15 @@
     </distributionManagement>
 
     <properties>
-		<junit.version>4.8.1</junit.version>
+	
+    	<webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
+    	<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+
 		<wagon-svn.version>1.9</wagon-svn.version>
-		<javadoc-plugin.version>2.8</javadoc-plugin.version>
-		<gwt.version>2.4.0</gwt.version>
+		<gwt.version>2.5.0-rc1</gwt.version>
+		<junit.version>4.8.1</junit.version>
+		<validation-api.version>1.0.0.GA</validation-api.version>
+
     </properties>
 
 </project>
