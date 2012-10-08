@@ -11,7 +11,7 @@
 		<version>0.2-SNAPSHOT</version>
 	</parent>
 	<groupId>fr.corpoconcept</groupId>
-	<artifactId>bas-rorro-gwt</artifactId>
+	<artifactId>bas-roro-gwt</artifactId>
 	<packaging>war</packaging>
 	<version>0.2-SNAPSHOT</version>
 	<name>Bac à sable gwt de Roro</name>
