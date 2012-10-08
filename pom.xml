@@ -107,7 +107,7 @@
 		<module>bas-frankie</module>
 		<module>bas-albino</module>
     </modules>
-
+	JE PETE LE POM POUR TEST
     <dependencyManagement>
 		<dependencies>
 
