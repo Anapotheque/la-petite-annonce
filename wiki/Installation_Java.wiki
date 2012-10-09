@@ -3,7 +3,7 @@
 
 _Nous allons développer ici comment installer proprement une jdk sur sa machine quelque soit sa version ou sont type de JDK et surtout comment switcher d'une version à une autre rapidement et sans se prendre la tête_
 
-Dans un première temps je vais mettre fin aux questions qu'on s'est tous posées.
+*Mais dans un premier temps ils vous faudra comprendre ces differentes notion.*
 
   *_Qu'est qu'une ou un *JRE* ( Java runtime Environnement ) ?_
 {{{
@@ -25,7 +25,8 @@ TODO
 TODO
 }}}
 
-Pre-requis : 
+*Maintenant commençons l'installation*
+Ce tutoriel n'est prevu pour le moment que sous windows ( ici windows7 mais c'est la meme chose sur les versions inferieures ).
 Un OS Windows, ( ici windows 7 )
 
 *Comment installer Java proprement sur son poste ?*
