@@ -1,9 +1,14 @@
 =INSTALLATION JAVA J2EE SOUS WINDOWS=
 <hr/>
 
+*Les pré-requis :*
+  *un pc sous Windows
+<hr/>
+
 _Nous allons développer ici comment installer proprement une jdk sur sa machine quelque soit sa version ou sont type de JDK et surtout comment switcher d'une version à une autre rapidement et sans se prendre la tête_
 
-*Mais dans un premier temps ils vous faudra comprendre ces differentes notions.*
+*Dans un premier temps, quelques notions de base*
+<hr/>
 
   *Qu'est qu'une ou un *JRE* ( Java runtime Environnement ) ?
 {{{
@@ -25,7 +30,19 @@ TODO
 TODO
 }}}
 
+*Installer un JRE sur son poste ?*
 <hr/>
-*Comment installer Java proprement sur son poste ?*
+Ouvrez une invite de commande et tapez la commande ci-dessous.
+{{{
+jview
+}}}
+si vous avez un message mentionnant que _'jview' n'est pas reconnu comme commande interne..._
+c'est que vous ne possédez pas de JRE sur votre poste et que donc vous n'avez jamais eu à déclarer vos impôts !
 
-Dans un premier temps il vous faudra recuperer une JDK sur le site de ... Oracle oui ( Sun c'est fait absorbé ) : 
+Dans ce cas, il ne vous reste plus qu'à vous rendre sur le site d'<a href="http://www.java.com/fr/download/">Oracle</a> et de télécharger Java 7 ( la dernière version stable à l’écriture de ces lignes.
+
+*Installer un JDK sur son poste ?*
+<hr/>
+Voila la partie la plus intéressante
+
+On va commencer par télécharger un JDK sur le site de oracle
