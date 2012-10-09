@@ -1,7 +1,8 @@
-package fr.corpoconcept.server;
+package fr.corpoconcept.petiteannonce.server;
 
-import fr.corpoconcept.client.GreetingService;
-import fr.corpoconcept.shared.FieldVerifier;
+import fr.corpoconcept.petiteannonce.client.GreetingService;
+import fr.corpoconcept.petiteannonce.shared.FieldVerifier;
+
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**

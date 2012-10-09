@@ -1,4 +1,4 @@
-package fr.corpoconcept.shared;
+package fr.corpoconcept.petiteannonce.shared;
 
 /**
  * <p>
