@@ -6,8 +6,8 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<parent> 
-		<groupId>fr.corpoconcept</groupId>
-		<artifactId>petiteannonce</artifactId>
+		<groupId>fr.corpoconcept.petiteannonce</groupId>
+		<artifactId>parent</artifactId>
 		<version>0.2-SNAPSHOT</version>
 	</parent>
 	<groupId>fr.corpoconcept</groupId>
