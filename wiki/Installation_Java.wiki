@@ -19,8 +19,8 @@ _Nous allons développer ici comment installer proprement une jdk sur sa machine
 
   * Quelles différences entre SDK et JDK ?
   _JDK = Java Developpement Kit
-SDK = Sun Developpement Kit
-La différence ? ... Je pense aucune, c'est juste histoire de foutre la merde dans nos esprits, comme ci on avait que ça à foutre ..._
+  SDK = Sun Developpement Kit
+  La différence ? ... Je pense aucune, c'est juste histoire de foutre la merde dans nos esprits, comme ci on avait que ça à foutre ..._
 
   * Question sur les versions, quelles différences entre JDK 1.5 et JDK 5.0 ?
   _La pareil, c'est exactement la même chose... no comment..._
