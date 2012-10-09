@@ -29,15 +29,23 @@ _Nous allons développer ici comment installer proprement une jdk sur sa machine
 <hr/>
 Ouvrez une invite de commande et tapez la commande ci-dessous.
 {{{
-jview
+java -version
 }}}
 si vous avez un message mentionnant que _'jview' n'est pas reconnu comme commande interne..._
 c'est que vous ne possédez pas de JRE sur votre poste et que donc vous n'avez jamais eu à déclarer vos impôts !
 
 Dans ce cas, il ne vous reste plus qu'à vous rendre sur le site d'<a href="http://www.java.com/fr/download/">Oracle</a> et de télécharger Java 7 ( la dernière version stable à l’écriture de ces lignes.
 
+Une fois que tout est fini, vous pourrez retaper la ligne de commande vu au dessus, vous devriez obtenir : ( pour un jre version : 7 )
+{{{
+java version "1.7.0_07"
+Java(TM) SE Runtime Environment (build 1.7.0_07-b11)
+Java HotSpot(TM) Client VM (build 23.3-b01, mixed mode, sharing)
+}}}
+
   # *Installer un JDK sur son poste ?*
 <hr/>
 Voila la partie la plus intéressante
+
 
 On va commencer par télécharger un JDK sur le site de oracle
