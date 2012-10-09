@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project 
+	xmlns="http://maven.apache.org/POM/4.0.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.corpoconcept.petiteannonce</groupId>
+    <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
+    <name>Parent</name>
+    <version>0.2-SNAPSHOT</version>
+    <url>http://maven.apache.org</url>
+
+    <repositories>
+			<repository>
+				<id>petiteannoncerepo</id>
+				<url>http://la-petite-annonce.googlecode.com/svn/repo</url>
+			</repository>
+    </repositories>
+
+    <build>
+
+			<extensions>
+				<extension>
+				  <groupId>org.jvnet.wagon-svn</groupId>
+				 	<artifactId>wagon-svn</artifactId>
+				  <version>${wagon-svn.version}</version>
+				</extension>
+			</extensions>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+			  	<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+
+	  	<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<configuration>
+		  		<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
+	  	</plugin>
+
+	  	<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+   		    <configuration>
+  					<tagBase>https://la-petite-annonce.googlecode.com/svn/tags</tagBase>
+					<goals>deploy</goals>
+				</configuration>
+	 		</plugin>
+
+		</plugins>
+
+		<pluginManagement>
+			<plugins>
+
+			  <plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>gwt-maven-plugin</artifactId>
+					<version>${gwt.version}</version>
+					<executions>
+					  <execution>
+							<goals>
+							  <goal>compile</goal>
+							</goals>
+					  </execution>
+					</executions>
+			  </plugin>
+
+			  <plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-war-plugin</artifactId>
+					<executions>
+				  	<execution>
+						<phase>compile</phase>
+						<goals>
+					  	<goal>exploded</goal>
+						</goals>
+				  	</execution>
+					</executions>
+					<configuration>
+					  <webappDirectory>${webappDirectory}</webappDirectory>
+					</configuration>
+			  </plugin>
+
+			</plugins>
+		</pluginManagement>	
+
+    </build>
+
+    <modules>
+    	<module>bas-drix</module>
+			<module>bas-cris</module>
+			<module>bas-roro</module>
+			<module>bas-frankie</module>
+			<module>bas-albino</module>
+			<module>bas-drix-gwt</module>
+			<module>bas-cris-gwt</module>
+			<module>bas-roro-gwt</module>
+			<module>bas-frankie-gwt</module>
+			<module>bas-albino-gwt</module>
+    </modules>
+
+    <dependencyManagement>
+			<dependencies>
+	
+				<dependency>
+			  	<groupId>com.google.gwt</groupId>
+			  	<artifactId>gwt-servlet</artifactId>
+			  	<version>${gwt.version}</version>
+			  	<scope>runtime</scope>
+				</dependency>
+	
+				<dependency>
+			  	<groupId>com.google.gwt</groupId>
+			  	<artifactId>gwt-user</artifactId>
+			  	<version>${gwt.version}</version>
+			 	 	<scope>provided</scope>
+				</dependency>
+	
+				<dependency>
+			  	<groupId>javax.validation</groupId>
+			  	<artifactId>validation-api</artifactId>
+			  	<version>${validation-api.version}</version>
+			  	<scope>test</scope>
+				</dependency>
+	
+				<dependency>
+			  	<groupId>javax.validation</groupId>
+			  	<artifactId>validation-api</artifactId>
+			  	<version>${validation-api.version}</version>
+					<classifier>sources</classifier>
+			  	<scope>test</scope>
+				</dependency>
+	
+			 	<dependency>
+		     	<groupId>junit</groupId>
+		     	<artifactId>junit</artifactId>
+		     	<version>${junit.version}</version>
+					<scope>test</scope>
+			  </dependency>
+	
+			</dependencies>
+    </dependencyManagement>
+
+    <scm>
+    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/</connection>
+    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/</developerConnection>
+    </scm>
+
+    <distributionManagement>
+
+			<repository>
+				<uniqueVersion>false</uniqueVersion>
+				<id>petiteannoncerepo</id>
+				<name>Petite Annonce Repository</name>
+				<url>svn:https://la-petite-annonce.googlecode.com/svn/repo</url>
+			</repository>
+
+    </distributionManagement>
+
+    <properties>
+	
+    	<webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+			<wagon-svn.version>1.9</wagon-svn.version>
+			<gwt.version>2.4.0</gwt.version>
+			<junit.version>4.8.1</junit.version>
+			<validation-api.version>1.0.0.GA</validation-api.version>
+
+    </properties>
+
+</project>
