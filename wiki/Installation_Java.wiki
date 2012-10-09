@@ -7,8 +7,8 @@
 
   # Les pré-requis
   # Les bases
-  # Installer un JRE sur son poste ?
-  # Télécharger la JRE 7
+  # Installer un JRE sur son poste
+  # Installer un JDK sur son poste
 
 <hr/>
 ==*Les pré-requis*==
@@ -60,6 +60,6 @@ Java(TM) SE Runtime Environment (build 1.7.0_07-b11)
 Java HotSpot(TM) Client VM (build 23.3-b01, mixed mode, sharing)
 }}}
 
-==*Installer un JDK sur son poste ?*==
+==*Installer un JDK sur son poste*==
 <hr/>
 ...TODO...
