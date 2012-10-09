@@ -18,8 +18,8 @@ _Nous allons développer ici comment installer proprement une jdk sur sa machine
   _Comme son nom l'indique si s'agit d'un ensemble d'outils vous permettant d’écrire des classes java avec des Api comme JDBC et de pouvoir les compiler avec javac etc et donc de generer les fameux .class qui seront interprété par la JRE._
 
   * Quelles différences entre SDK et JDK ?
-  _JDK = Java Developpement Kit
-  SDK = Sun Developpement Kit
+  _JDK = Java Developpement Kit<br/>
+  SDK = Sun Developpement Kit<br/>
   La différence ? ... Je pense aucune, c'est juste histoire de foutre la merde dans nos esprits, comme ci on avait que ça à foutre ..._
 
   * Question sur les versions, quelles différences entre JDK 1.5 et JDK 5.0 ?
