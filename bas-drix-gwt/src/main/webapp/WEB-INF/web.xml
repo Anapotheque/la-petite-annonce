@@ -18,7 +18,7 @@
 
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>petiteannonce.html</welcome-file>
+    <welcome-file>PetiteAnnonce.html</welcome-file>
   </welcome-file-list>
 
 </web-app>

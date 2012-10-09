@@ -19,13 +19,13 @@ import com.google.gwt.user.client.rpc.ServiceDefTarget;
  * See http://mojo.codehaus.org/gwt-maven-plugin/user-guide/testing.html 
  * for details.
  */
-public class GwtTestpetiteannonce extends GWTTestCase {
+public class GwtTestPetiteAnnonce extends GWTTestCase {
 
   /**
    * Must refer to a valid module that sources this class.
    */
   public String getModuleName() {
-    return "fr.corpoconcept.petiteannonce.petiteannonceJUnit";
+    return "fr.corpoconcept.petiteannonce.PetiteAnnonceJUnit";
   }
 
   /**
