@@ -103,6 +103,10 @@
 			<module>bas-frankie</module>
 			<module>bas-albino</module>
 			<module>bas-drix-gwt</module>
+			<module>bas-cris-gwt</module>
+			<module>bas-roro-gwt</module>
+			<module>bas-frankie-gwt</module>
+			<module>bas-albino-gwt</module>
     </modules>
 
     <dependencyManagement>
