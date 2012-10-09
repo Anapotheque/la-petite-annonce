@@ -1,0 +1,24 @@
+=INSTALLATION JAVA J2EE=
+
+_Nous allons développer ici comment installer proprement une jdk sur sa machine quelque soit sa version ou sont type de JDK et surtout comment switcher d'une version à une autre rapidement et sans se prendre la tête_
+
+Dans un première temps je vais mettre fin aux questions qu'on s'est tous posées.
+
+_Qu'est qu'une ou un *JRE* ( Java runtime Environnement ) ?_
+Il s'agit de la plateforme qui va permettre d’exécuter vos programmes ou celui de quelqu'un d'autre.
+
+_Qu'est qu'un JDK ?_
+Il s'agit de l'ensemble des outils qui va vous permettre de compiler vos programmes et vous fournir un ensemble d'API dites de base. ( exemple : JDBC )
+
+_Quelles différences entre SDK et JDK ?_
+Aucunes différences c'est exactement la même chose...
+
+_Question sur les versions, quelles différences entre JDK1.5 et JDK5.0 ?_
+Pareil c'est la même chose...
+
+Pre-requis : 
+Un OS Windows, ( ici windows 7 )
+
+*Comment installer Java proprement sur son poste ?*
+
+Dans un premier temps il vous faudra recuperer une JDK sur le site de ... Oracle oui ( Sun c'est fait absorbé ) : 
