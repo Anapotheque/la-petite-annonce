@@ -5,13 +5,20 @@
 =INSTALLATION JAVA J2EE SOUS WINDOWS=
 <hr/>
 
-*Les pré-requis :*
+  # *Les pré-requis :*
+  # *Dans un premier temps, quelques notions de base*
+  # *Installer un JRE sur son poste ?*
+  # *Telecharger la JRE 7*
+
+<hr/>
+
+==*Les pré-requis :*==
   * un pc sous Windows
 <hr/>
 
 _Nous allons développer ici comment installer proprement une jdk sur sa machine quelque soit sa version ou sont type de JDK et surtout comment switcher d'une version à une autre rapidement et sans se prendre la tête_
 
-  # *Dans un premier temps, quelques notions de base*
+==*Dans un premier temps, quelques notions de base*==
 <hr/>
 
   * Qu'est qu'une *JRE* ( Java runtime Environnement ) ?
@@ -29,7 +36,7 @@ _Nous allons développer ici comment installer proprement une jdk sur sa machine
   * Question sur les versions, quelles différences entre JDK 1.5 et JDK 5.0 ?
   _La pareil, c'est exactement la même chose... no comment..._
 
-  # *Installer un JRE sur son poste ?*
+==*Installer un JRE sur son poste ?*==
 <hr/>
 Ouvrez une invite de commande et tapez la commande ci-dessous.
 {{{
@@ -54,6 +61,6 @@ Java(TM) SE Runtime Environment (build 1.7.0_07-b11)
 Java HotSpot(TM) Client VM (build 23.3-b01, mixed mode, sharing)
 }}}
 
-  # *Installer un JDK sur son poste ?*
+==*Installer un JDK sur son poste ?*==
 <hr/>
 ...TODO...
