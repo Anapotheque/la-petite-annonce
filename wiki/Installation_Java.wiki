@@ -31,10 +31,17 @@ Ouvrez une invite de commande et tapez la commande ci-dessous.
 {{{
 java -version
 }}}
-si vous avez un message mentionnant que _'jview' n'est pas reconnu comme commande interne..._
-c'est que vous ne possédez pas de JRE sur votre poste et que donc vous n'avez jamais eu à déclarer vos impôts !
+si vous obtenez le message suivant 
+{{{
+'java' n'est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+}}}
+vous ne possédez pas de JRE sur votre poste, et donc, vous n'avez jamais eu à déclarer vos impôts !
+Si vous obtenez autre chose alors veuillez vérifier que la version de la JRE n'est pas inférieure à la version 1.5, sinon il vous faudra désinstaller cette version pour en prendre une plus récente !! 
 
-Dans ce cas, il ne vous reste plus qu'à vous rendre sur le site d'<a href="http://www.java.com/fr/download/">Oracle</a> et de télécharger Java 7 ( la dernière version stable à l’écriture de ces lignes.
+  * *Telecharger la JRE 7*
+
+Dans ce cas, il ne vous reste plus qu'à vous rendre sur le site d'*<a href="http://www.java.com/fr/download/">Oracle</a>* et de télécharger Java 7 ( la dernière version stable à l’écriture de ces lignes).
 
 Une fois que tout est fini, vous pourrez retaper la ligne de commande vu au dessus, vous devriez obtenir : ( pour un jre version : 7 )
 {{{
@@ -45,7 +52,4 @@ Java HotSpot(TM) Client VM (build 23.3-b01, mixed mode, sharing)
 
   # *Installer un JDK sur son poste ?*
 <hr/>
-Voila la partie la plus intéressante
-
-
-On va commencer par télécharger un JDK sur le site de oracle
+...TODO...
