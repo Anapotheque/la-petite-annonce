@@ -1,4 +1,5 @@
 =INSTALLATION JAVA J2EE=
+<hr/>
 
 _Nous allons développer ici comment installer proprement une jdk sur sa machine quelque soit sa version ou sont type de JDK et surtout comment switcher d'une version à une autre rapidement et sans se prendre la tête_
 
