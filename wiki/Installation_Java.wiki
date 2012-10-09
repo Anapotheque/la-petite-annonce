@@ -10,12 +10,12 @@ _Nous allons développer ici comment installer proprement une jdk sur sa machine
 *Dans un premier temps, quelques notions de base*
 <hr/>
 
-  *Qu'est qu'une ou un *JRE* ( Java runtime Environnement ) ?
+  *Qu'est qu'un *JRE* ( Java runtime Environnement ) ?
 {{{
 TODO
 }}}
 
-  *Qu'est qu'un JDK ?
+  *Qu'est qu'un JDK ( Java Developpement Kit ) ?
 {{{
 TODO
 }}}
