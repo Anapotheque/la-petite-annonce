@@ -1,4 +1,4 @@
-package fr.corpoconcept.client;
+package fr.corpoconcept.petiteannonce.client;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 

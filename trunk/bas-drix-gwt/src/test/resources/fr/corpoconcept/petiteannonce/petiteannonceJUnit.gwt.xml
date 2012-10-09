@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module>
   <!-- Inherit our applications main module.                      -->
-  <inherits name='fr.corpoconcept.petiteannonce' />
+  <inherits name='fr.corpoconcept.petiteannonce.petiteannonce' />
 
   <!-- Specify the path to any remote services.                   -->
-  <servlet path="/petiteannonce/greet" class="fr.corpoconcept.server.GreetingServiceImpl" />
+  <servlet path="/petiteannonce/greet" class="fr.corpoconcept.petiteannonce.server.GreetingServiceImpl" />
 
 </module>

@@ -8,7 +8,7 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>fr.corpoconcept.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>fr.corpoconcept.petiteannonce.server.GreetingServiceImpl</servlet-class>
   </servlet>
 
   <servlet-mapping>

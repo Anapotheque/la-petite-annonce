@@ -1,6 +1,9 @@
-package fr.corpoconcept.client;
+package fr.corpoconcept.petiteannonce.client;
 
-import fr.corpoconcept.shared.FieldVerifier;
+import fr.corpoconcept.petiteannonce.client.GreetingService;
+import fr.corpoconcept.petiteannonce.client.GreetingServiceAsync;
+import fr.corpoconcept.petiteannonce.shared.FieldVerifier;
+
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.junit.client.GWTTestCase;
 import com.google.gwt.user.client.rpc.AsyncCallback;
@@ -22,7 +25,7 @@ public class GwtTestpetiteannonce extends GWTTestCase {
    * Must refer to a valid module that sources this class.
    */
   public String getModuleName() {
-    return "fr.corpoconcept.petiteannonceJUnit";
+    return "fr.corpoconcept.petiteannonce.petiteannonceJUnit";
   }
 
   /**
