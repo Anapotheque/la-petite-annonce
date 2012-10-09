@@ -11,27 +11,26 @@ _Nous allons développer ici comment installer proprement une jdk sur sa machine
 <hr/>
 
   * Qu'est qu'une *JRE* ( Java runtime Environnement ) ?
-{{{
-Rien d'autre que le moteur d’interprétation du code compilé par le JDK quelque soit la plateforme.
+_Rien d'autre que le moteur d’interprétation du code compilé par le JDK quelque soit la plateforme.
 Un fichier X.class issu de la compilation par une JDK sous plateforme Unix sera t-il exécutable sous une JRE sous Windows ou un autre system que celui d'Unix ? ( drixx moi je dirai oui mais la j'ai un doute ).
-}}}
+_
 
   * Qu'est qu'un JDK ( Java Developpement Kit ) ?
-{{{
+_
 Comme son nom l'indique si s'agit d'un ensemble d'outils vous permettant d’écrire des classes java avec des Api comme JDBC et de pouvoir les compiler avec javac etc et donc de generer les fameux .class qui seront interprété par la JRE.
-}}}
+_
 
   * Quelles différences entre SDK et JDK ?
-{{{
+_
 JDK = Java Developpement Kit
 SDK = Sun Developpement Kit
 La différence ? ... Je pense aucune, c'est juste histoire de foutre la merde dans nos esprits, comme ci on avait que ça à foutre ...
-}}}
+_
 
   * Question sur les versions, quelles différences entre JDK 1.5 et JDK 5.0 ?
-{{{
+_
 La pareil, c'est exactement la même chose... no comment...
-}}}
+_
 
   # *Installer un JRE sur son poste ?*
 <hr/>
