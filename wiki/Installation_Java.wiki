@@ -5,16 +5,16 @@ _Nous allons développer ici comment installer proprement une jdk sur sa machine
 Dans un première temps je vais mettre fin aux questions qu'on s'est tous posées.
 
 _Qu'est qu'une ou un *JRE* ( Java runtime Environnement ) ?_
-Il s'agit de la plateforme qui va permettre d’exécuter vos programmes ou celui de quelqu'un d'autre.
+`// TODO`
 
 _Qu'est qu'un JDK ?_
-Il s'agit de l'ensemble des outils qui va vous permettre de compiler vos programmes et vous fournir un ensemble d'API dites de base. ( exemple : JDBC )
+`// TODO`
 
 _Quelles différences entre SDK et JDK ?_
-Aucunes différences c'est exactement la même chose...
+`// TODO`
 
 _Question sur les versions, quelles différences entre JDK1.5 et JDK5.0 ?_
-Pareil c'est la même chose...
+`// TODO`
 
 Pre-requis : 
 Un OS Windows, ( ici windows 7 )
