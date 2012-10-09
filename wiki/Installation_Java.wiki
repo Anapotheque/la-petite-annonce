@@ -2,7 +2,7 @@
 
 <img src="http://www.easy-reseau.fr/images/travaux_icone.jpg" width="200" />
 
-=INSTALLATION JAVA J2EE SOUS WINDOWS=
+=INSTALLATION & CONFIGURATION DE JAVA SOUS WINDOWS=
 <hr/>
 
   # *Les pré-requis :*
