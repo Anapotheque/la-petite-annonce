@@ -17,7 +17,7 @@
   <!-- Other module inherits                                      -->
 
   <!-- Specify the app entry point class.                         -->
-  <entry-point class='fr.corpoconcept.petiteannonce.client.petiteannonce' />
+  <entry-point class='fr.corpoconcept.petiteannonce.client.PetiteAnnonce' />
 
   <!-- Specify the paths for translatable code                    -->
   <source path='client' />
