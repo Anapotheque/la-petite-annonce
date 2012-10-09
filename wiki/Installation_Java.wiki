@@ -5,7 +5,7 @@
 =INSTALLATION & CONFIGURATION DE JAVA SOUS WINDOWS=
 <hr/>
 
-  # *Les pré-requis :*
+*  # Les pré-requis :*
   # *Les bases*
   # *Installer un JRE sur son poste ?*
   # *Telecharger la JRE 7*
