@@ -7,10 +7,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent> 
 		<groupId>fr.corpoconcept.petiteannonce</groupId>
-		<artifactId>parent</artifactId>
+		<artifactId>la-petite-annonce</artifactId>
 		<version>0.2-SNAPSHOT</version>
 	</parent>
-	<groupId>fr.corpoconcept</groupId>
 	<artifactId>bas-albino-gwt</artifactId>
 	<packaging>war</packaging>
 	<version>0.2-SNAPSHOT</version>
