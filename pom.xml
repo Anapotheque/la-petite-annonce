@@ -6,7 +6,7 @@
     
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.corpoconcept.petiteannonce</groupId>
-    <artifactId>parent</artifactId>
+    <artifactId>la-petite-annonce</artifactId>
     <packaging>pom</packaging>
     <name>Parent</name>
     <version>0.2-SNAPSHOT</version>
@@ -152,8 +152,8 @@
     </dependencyManagement>
 
     <scm>
-    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/</connection>
-    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/</developerConnection>
+    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/la-petite-annonce-0.1</connection>
+    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/la-petite-annonce-0.1</developerConnection>
     </scm>
 
     <distributionManagement>
