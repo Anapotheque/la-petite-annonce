@@ -4,11 +4,11 @@
     <parent> 
 		<groupId>fr.corpoconcept.petiteannonce</groupId>
 		<artifactId>la-petite-annonce</artifactId>
-		<version>0.2-SNAPSHOT</version>
+		<version>0.2</version>
     </parent>
     <artifactId>bas-roro</artifactId>
     <packaging>jar</packaging>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.2</version>
     <name>Bac à sable de Roro</name>
     
     <dependencies>
