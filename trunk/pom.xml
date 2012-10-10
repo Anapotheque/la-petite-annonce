@@ -153,8 +153,8 @@
     </dependencyManagement>
 
     <scm>
-    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/la-petite-annonce-0.2</connection>
-    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/la-petite-annonce-0.2</developerConnection>
+    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags</connection>
+    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags</developerConnection>
     </scm>
 
     <distributionManagement>
