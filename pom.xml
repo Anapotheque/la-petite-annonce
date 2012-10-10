@@ -172,7 +172,6 @@
 	
     	<webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
 			<wagon-svn.version>1.9</wagon-svn.version>
 			<maven-release-plugin.version>2.3.2</maven-release-plugin.version>
 			<gwt.version>2.4.0</gwt.version>
