@@ -3,9 +3,8 @@
 ==Gestion de compte Bancaire==
 <hr/>
 
-  * Énoncé
+  * Énoncé : _Ecrire un programme java permettant d'afficher le menu suivant_
 
-  Ecrire un programme java permettant d'afficher le menu suivant
   Si aucun compte n'a été créé afficher le message suivant :
 
   {{{
