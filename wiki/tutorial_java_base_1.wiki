@@ -8,7 +8,7 @@
   Si aucun compte n'a été créé afficher le message suivant :
 
   {{{
-  Veuillez choisir l'une des actions : 
+  // Veuillez choisir l'une des actions : 
   1 : Créer un compte bancaire
   2 : Quitter
   }}}
@@ -16,7 +16,7 @@
   Sinon
 
   {{{
-  Veuillez choisir l'une des actions : 
+  // Veuillez choisir l'une des actions : 
   {identifiant du compte} : { afficher la liste des comptes bancaires : vous pourrez afficher le libelle du compte }
   5 : Quitter
   }}}
@@ -24,7 +24,7 @@
   Si vous sélectionner un compte bancaire : 
 
   {{{
-  Veuillez choisir l'une des actions : 
+  // Veuillez choisir l'une des actions : 
   1 : Afficher l'historique du compte
   2 : Créditer le compte
   3 : Débiter le compte
