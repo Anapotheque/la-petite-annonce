@@ -6,7 +6,7 @@
 <h2>Pre-requis</h2>
 <h3>Windows</h3>
 <ul>
-<li>Il vous faudra dans un premier temps un <a href="http://www.oracle.com/technetwork/java/javaee/overview/index.html">JDK ou SDK</a> ( c'est la même chose )</li>
+<li>Il vous faudra dans un premier temps un <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7u7-downloads-1836413.html">JDK ou SDK</a> ( c'est la même chose )</li>
 <li><a href="http://tortoisesvn.net/downloads.html" target="_BLANK">Télécharger Tortoise SVN</a>, choisissez en fonction de votre architecture machine (32 ou 64 bits)</li>
 <li><a href="http://maven.apache.org/download.html" target="_BLANK">Télécharger Maven</a>, utiliser la version 2.2.1 </li>
 <li><a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr1">Télécharger un Eclipse de base</a>, la version Juno est celle que nous utilisons avec Cedric.</li>
