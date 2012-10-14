@@ -1,7 +1,3 @@
-<h1 style="color:#D01010">....PAGE EN COURS DE CONSTRUCTION...</h1>
-
-<img src="http://www.easy-reseau.fr/images/travaux_icone.jpg" width="200" />
-
 =INSTALLATION & CONFIGURATION DE JAVA SOUS WINDOWS=
 <hr/>
 
