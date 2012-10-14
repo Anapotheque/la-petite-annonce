@@ -15,10 +15,10 @@ Que l'on travaille sous windows, linux, ou mac, il semble évident que si vous a
 
 Personnellement je recommande d'organisation son poste comme ça :
 
-       / -- developpement
-                 / -- projects : ici vous mettez tous vos programmes ( checkout svn)
-                 / -- tools : ici vous installerez tout ce qui a rapport à java ( jre / jdk / servers / base de données / maven & repository maven ... )
-                 / -- workspace : eclipse doit toujours importer les projects venant du repertoire projects.
+  * developpement
+    * projects : ici vous mettez tous vos programmes ( checkout svn)
+    * tools : ici vous installerez tout ce qui a rapport à java ( jre / jdk / servers / base de données / maven & repository maven ... )
+    * workspace : eclipse doit toujours importer les projects venant du repertoire projects.
                  
 ==Indenté ton code sera==
 <hr/>
