@@ -80,3 +80,5 @@ javac 1.7.0_07
 }}}
 <hr/>
 ==Feliciation, vous avez maintenant un poste configuré pour tourner avec JAVA.==
+
+KikiWorldLink Retour à l'installation de mon environnement developpement
