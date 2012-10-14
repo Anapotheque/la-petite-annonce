@@ -13,10 +13,6 @@
 <li><a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr1">Télécharger un Eclipse de base</a>, la version Juno est celle que nous utilisons avec Cedric.</li>
 </ul>
 
-<h2>Configuration de mon poste</h2>
-
-<img src="http://www.inrialpes.fr/helix/people/genoud/ENSJAVA/tds/sujets/PriseEnMain/configxp001.png" />
-
 <h2>Installation : </h2>
 
 Creer un repertoire permetant de stocker votre project.
