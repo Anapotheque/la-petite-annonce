@@ -4,11 +4,11 @@
     <parent> 
 			<groupId>fr.corpoconcept.petiteannonce</groupId>
 			<artifactId>la-petite-annonce</artifactId>
-			<version>0.2</version>
+			<version>0.3-SNAPSHOT</version>
     </parent>
     <artifactId>bas-drix</artifactId>
     <packaging>jar</packaging>
-    <version>0.2</version>
+    <version>0.3-SNAPSHOT</version>
     <name>Bac à sable de Drix</name>
 
     <dependencies>
