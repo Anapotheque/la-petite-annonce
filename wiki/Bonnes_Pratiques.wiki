@@ -50,3 +50,6 @@ Pas Bien
 {{{
    <balise0><balise1><balise2>test</balise2></balise1><balise0>
 }}}
+
+<hr/>
+[Beginners Retour à l'installation de mon environnement developpement]
