@@ -6,7 +6,7 @@
     <artifactId>la-petite-annonce</artifactId>
     <packaging>pom</packaging>
     <name>Parent</name>
-    <version>0.2</version>
+    <version>0.3-SNAPSHOT</version>
     <url>http://maven.apache.org</url>
 
     <repositories>
@@ -156,8 +156,8 @@
     </dependencyManagement>
 
     <scm>
-    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/la-petite-annonce-0.2</connection>
-    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/la-petite-annonce-0.2</developerConnection>
+    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/trunk</connection>
+    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/trunk</developerConnection>
     </scm>
 
     <distributionManagement>

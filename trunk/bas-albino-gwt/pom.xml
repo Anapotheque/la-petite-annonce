@@ -5,11 +5,11 @@
 	<parent> 
 		<groupId>fr.corpoconcept.petiteannonce</groupId>
 		<artifactId>la-petite-annonce</artifactId>
-		<version>0.2</version>
+		<version>0.3-SNAPSHOT</version>
 	</parent>
 	<artifactId>bas-albino-gwt</artifactId>
 	<packaging>war</packaging>
-	<version>0.2</version>
+	<version>0.3-SNAPSHOT</version>
 	<name>Bac à sable gwt de Albino</name>
 
   	<build>
