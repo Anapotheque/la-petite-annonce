@@ -14,6 +14,8 @@
 </ul>
 
 ==Installation==
+
+=== Recuperation du projet ===
 <hr/>
 
 Creer un repertoire permetant de stocker votre project.
@@ -28,7 +30,14 @@ svn co https://la-petite-annonce.googlecode.com/svn/trunk/
 https://code.google.com/p/la-petite-annonce/source/checkout
 }}}
 
-<i>Compilation du project :</i>
+===installation de la JToolBox CorpoConcept===
+<hr/>
+
+La JToolBox va vous permettre de lancer une invite de commande afin de lancer des actions avec un paramétrage facile à mettre en place.
+
+<a href="http://la-petite-annonce.googlecode.com/svn/trunk/tools/JToolBox/console.bat">Telecharger la JToolBox</a>
+
+_Compilation du project :_
 {{{
 mvn clean install 
 }}}
