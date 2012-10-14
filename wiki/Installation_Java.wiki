@@ -25,6 +25,8 @@
   SDK = Sun Developpement Kit<br/>
   La différence ? ... Je pense aucune, c'est juste histoire de foutre la merde dans nos esprits, comme ci on avait que ça à foutre ..._
 
+  _Cédric : SDK égal implémentation du JDK de Sun Microsystem (rachété par Oracle désormais). Il existe plein d'implémentation du JDK. Personnellement, sur mon Linux, j'ai un OpenJDK. Attention, certaines applications comme NetBeans? par exemple n'accepte que l'implémentation de Sun. Pour la petite histoire, la première année où le gouvernement a mis en place la déclaration des impôts en ligne, seul le JDK de Microsoft était accepté : vu qu'il ne me restait que quelques heure avant la date limite (c'est tout moi ça), j'avais dû faire une désinstallation complète (le switch entre JDK n'existait pas encore) pour remplir mon devoir citoyen ;-)_
+
   * Question sur les versions, quelles différences entre JDK 1.5 et JDK 5.0 ?
   _La pareil, c'est exactement la même chose... no comment..._
 
