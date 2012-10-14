@@ -1,13 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    
+        
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.corpoconcept.petiteannonce</groupId>
     <artifactId>la-petite-annonce</artifactId>
     <packaging>pom</packaging>
     <name>Parent</name>
     <version>0.3-SNAPSHOT</version>
-    <url>http://maven.apache.org</url>
+    
+    <organization>
+    	<name>CorpoConcept</name>
+  	</organization>
+  	
+    <url>http://code.google.com/p/la-petite-annonce</url>
+    
+    <developers>
+    	
+	    <developer>
+	      <name>Lallement Albin</name>
+	      <id>albino</id>
+	      <email>albin.lallement@gmail.com</email>
+	    </developer>
+	    
+    	<developer>
+	      <name>Faure Aurélien</name>
+	      <id>aurelien</id>
+	      <email>faure.aurelien@gmail.com</email>
+	    </developer>
+	    
+	    <developer>
+	      <name>Colin Christophe</name>
+	      <id>cris</id>
+	      <email>kriscolin@gmail.com</email>
+	    </developer>
+	    
+	    <developer>
+	      <name>Désiré Cédric</name>
+	      <id>drix</id>
+	      <email>cedric.desire@gmail.com</email>
+	    </developer>
+	    
+	    <developer>
+	      <name>Malchiodi Franck</name>
+	      <id>frankie</id>
+	      <email>malchiodi.franck@gmail.com</email>
+	    </developer>
+	    
+	    <developer>
+	      <name>Raballand Romain</name>
+	      <id>roro</id>
+	      <email>raballand.romain@gmail.com</email>
+	    </developer>
+
+		</developers>
 
     <repositories>
 			<repository>
