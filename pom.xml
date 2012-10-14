@@ -101,16 +101,19 @@
     </build>
 
     <modules>
-    	<module>bas-drix</module>
-			<module>bas-cris</module>
-			<module>bas-roro</module>
-			<module>bas-frankie</module>
-			<module>bas-albino</module>
-			<module>bas-drix-gwt</module>
-			<module>bas-cris-gwt</module>
-			<module>bas-roro-gwt</module>
-			<module>bas-frankie-gwt</module>
-			<module>bas-albino-gwt</module>
+    	<module>petiteannonce-web</module>
+    	<!--module>bas-drix</module-->
+			<!--module>bas-cris</module-->
+			<!--module>bas-roro</module-->
+			<!--module>bas-frankie</module-->
+			<!--module>bas-albino</module-->
+			<module>bas-aurelien</module>
+			<!--module>bas-drix-gwt</module-->
+			<!--module>bas-cris-gwt</module-->
+			<!--module>bas-roro-gwt</module-->
+			<!--module>bas-frankie-gwt</module-->
+			<!--module>bas-albino-gwt</module-->
+			<module>bas-aurelien-gwt</module>
     </modules>
 
     <dependencyManagement>
