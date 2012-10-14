@@ -33,7 +33,7 @@
   * Question sur les types, quelles différences entre JDK EE et JDK SE ?
   _Nous utiliserons une JDK se (standard édition). " expliquation de la difference à venir"_
 
-==*Installer un JRE sur son poste ?*==
+==*Installer un JRE sur son poste*==
 <hr/>
 Ouvrez une invite de commande et tapez la commande ci-dessous.
 {{{
