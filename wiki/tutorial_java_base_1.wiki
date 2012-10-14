@@ -17,8 +17,9 @@
 
   {{{
   // Veuillez choisir l'une des actions : 
-  // {identifiant du compte} : { afficher la liste des comptes bancaires : vous pourrez afficher le libelle du compte }
-  // 5 : Quitter
+  // 1 : Créer un nouveau compte bancaire  
+  // x : Afficher detail du compte - {identifiant du compte} : { afficher la liste des comptes bancaires : vous pourrez afficher le libelle du compte }
+  // x+1 : Quitter
   }}}
 
   Si vous sélectionner un compte bancaire : 
