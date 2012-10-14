@@ -73,3 +73,8 @@ vous ne possédez pas de JDK sur votre poste.
 Si vous obtenez autre chose alors veuillez vérifier que la version de la JDK n'est pas inférieure à la version 1.5, sinon il vous faudra en installer une plus récente !!
 
   * <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7u7-downloads-1836413.html">*Telecharger la JDK 7*</a>
+
+Une fois que tout est fini, vous pourrez retaper la ligne de commande vu au dessus, vous devriez obtenir : ( pour un jdk version : 7 )
+{{{
+javac 1.7.0_07
+}}}
