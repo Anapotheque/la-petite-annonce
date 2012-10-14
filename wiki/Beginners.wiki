@@ -17,7 +17,7 @@
 <hr/>
 
 Creer un repertoire permetant de stocker votre project.
-Personnellement : c:\developpement\projects\java\
+Personnellement : c:\developpement\projects\
 
 <i>Recuperation du project sur le repository distant Google :</i>
 {{{
