@@ -1,9 +1,15 @@
-=TUTORIEL JAVA 1=
+=TUTORIEL JAVA 1 : Gestion de compte Bancaire=
 
-==Gestion de compte Bancaire==
+==Énoncé==
 <hr/>
+_Ecrire un programme java permettant d'afficher le menu suivant_
 
-  * Énoncé : _Ecrire un programme java permettant d'afficher le menu suivant_
+    * Un compte bancaire créé à besoin d'un libelle et d'un montant de base qui sera par défaut à 100€ mais pourra être changé par l'utilisateur au moment de la création uniquement.
+    * Vous devrez bien séparé les parties métier, controleur vue ( log ici). ( pour vous aidez, le projet doit posséder 3 Packages : model, contrôleur, vue )
+
+    * Chaque acte ( credit - debit ) devra stocker la date - le montant ( optionnel : cas de la suppression de compte ) et un libelle ( optionnel )
+
+  * Enchainement des ecrans :
 
   Si aucun compte n'a été créé afficher le message suivant :
 
@@ -50,4 +56,16 @@
   > { selection user }
   }}}
 
-  A vous de jouer...
+== Section travaillée == 
+<hr/>
+    * Classe - Heritage - Interface ( la partie interface est pour le moment non obligatoire mais nous verrons comment rendre leurs utilisation indispensable pour la suite).
+    * log : system.out / system.in
+    * List - Set - Map
+    * attribut static et final
+    * Conception de POJO
+    * Design pattern MVC ( model vue controleur ).
+
+== Correction ==
+<hr/>
+
+En attente...
