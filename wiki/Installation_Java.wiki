@@ -78,3 +78,5 @@ Une fois que tout est fini, vous pourrez retaper la ligne de commande vu au dess
 {{{
 javac 1.7.0_07
 }}}
+<hr/>
+==Feliciation, vous avez maintenant un poste configuré pour tourner avec JAVA.==
