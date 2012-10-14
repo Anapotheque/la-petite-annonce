@@ -13,15 +13,42 @@
 <li><a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr1">Télécharger un Eclipse de base</a>, la version Juno est celle que nous utilisons avec Cedric.</li>
 </ul>
 
-==Installation==
+==installation de la JToolBox de CorpoConcept ==
+<hr/>
 
-=== Recuperation du projet ===
+La JToolBox va vous permettre de lancer une invite de commande afin de lancer des actions avec un paramétrage facile à mettre en place.
+
+=== Telechargement ===
+
+<a href="http://la-petite-annonce.googlecode.com/svn/trunk/tools/JToolBox/JToolBox.bat">Telecharger la JToolBox</a>.
+Enregistrez le fichier à la racine de /developpement/tools/ par exemple.
+Il sera votre point d'entrée pour tout le projet.
+
+=== Configuration ===
+
+Vous devez remplacer les chemins des variables dans le fichier
+{{{
+@REM : Directory : lieu ou la console se place à l'ouverture ( je l'ai mis sur mon project par exemple )
+set DIRECTORY=C:\Developpement\projects\
+
+@REM : JAVA_HOME : Permet de switch d'une JDK 1.5 à une autre 1.7 par exemple
+set JAVA_HOME=C:\Developpement\tools\java\jdk
+
+@REM : M2_HOME : Permet de switch d'un maven 2.2.1 à un maven 3.0 par exemple
+set M2_HOME=C:\Developpement\tools\maven
+
+@REM : Configuration de maven en terme de proxy, repo distant tout ça ( à venir ) pour le moment ne mettez rien ça gene pas
+set GLOBAL_SETTINGS=C:\Developpement\tools\settings\maven\global\settings.xml
+set USER_SETTINGS=C:\Developpement\tools\settings\maven\users\settings.xml
+}}}
+
+== Recuperation du projet ==
 <hr/>
 
 Creer un repertoire permetant de stocker votre project.
 Personnellement : c:\developpement\projects\
 
-<i>Recuperation du project sur le repository distant Google :</i>
+<i>Recuperation du project sur le repository distant Google : ( lancer la jToolBox</i>
 {{{
 svn co https://la-petite-annonce.googlecode.com/svn/trunk/
 }}}
@@ -29,13 +56,6 @@ svn co https://la-petite-annonce.googlecode.com/svn/trunk/
 {{{
 https://code.google.com/p/la-petite-annonce/source/checkout
 }}}
-
-===installation de la JToolBox CorpoConcept===
-<hr/>
-
-La JToolBox va vous permettre de lancer une invite de commande afin de lancer des actions avec un paramétrage facile à mettre en place.
-
-<a href="http://la-petite-annonce.googlecode.com/svn/trunk/tools/JToolBox/console.bat">Telecharger la JToolBox</a>
 
 _Compilation du project :_
 {{{
