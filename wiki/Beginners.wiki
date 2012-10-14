@@ -6,7 +6,7 @@
 ==Pre-requis==
 <hr/>
 <ul>
-<li>[Bonnes_Pratiques Bonnes pratiques] en terme d'organisation de logiciel et installation</li>
+<li>[Bonnes_Pratiques Bonnes pratiques], lire la partie pour l'organisation logicielle</li>
 <li>[Installation_Java Un environnement Java d'execution et de developpement] sur votre poste</li>
 <li><a href="http://tortoisesvn.net/downloads.html" target="_BLANK">Télécharger Tortoise SVN</a>, choisissez en fonction de votre architecture machine (32 ou 64 bits)</li>
 <li><a href="http://maven.apache.org/download.html" target="_BLANK">Télécharger Maven</a>, utiliser la version 2.2.1 </li>
