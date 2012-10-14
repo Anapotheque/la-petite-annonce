@@ -8,23 +8,37 @@
   Si aucun compte n'a été créé afficher le message suivant :
 
   {{{
+  // -----------------------------------
+  // --         MyCompte V1.0         --
+  // -----------------------------------
   // Veuillez choisir l'une des actions : 
   // 1 : Créer un compte bancaire
   // 2 : Quitter
+  // -----------------------------------
+  > { selection user }
   }}}
 
   Sinon
 
   {{{
+  // -----------------------------------
+  // --         MyCompte V1.0         --
+  // -----------------------------------
   // Veuillez choisir l'une des actions : 
   // 1 : Créer un nouveau compte bancaire  
-  // x : Afficher detail du compte - {identifiant du compte} : { afficher la liste des comptes bancaires : vous pourrez afficher le libelle du compte }
+  // x : Afficher détail du compte - {libelle du compte} :{ liste des comptes }
   // x+1 : Quitter
+  // -----------------------------------
+  > { selection user }
   }}}
 
   Si vous sélectionner un compte bancaire : 
 
   {{{
+  // -----------------------------------
+  // --         MyCompte V1.0         --
+  // --      {libelle du compte}      --
+  // -----------------------------------
   // Veuillez choisir l'une des actions : 
   // 1 : Afficher l'historique du compte
   // 2 : Créditer le compte
@@ -32,6 +46,8 @@
   // 4 : Supprimer le compte
   // 6 : Retour à la liste des comptes
   // 5 : Quitter
+  // -----------------------------------
+  > { selection user }
   }}}
 
   A vous de jouer...
