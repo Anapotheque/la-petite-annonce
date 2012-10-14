@@ -31,7 +31,7 @@
   _En fait on parle de Java 2 et de JRE 1.5. Pourquoi Java 2 : parce que la première version de Java était tellement lente par rapport aux suivantes qu'on considéra ce passage comme une version majeure._
 
   * Question sur les types, quelles différences entre *JDK EE* et *JDK SE* ?
-  _Nous utiliserons une JDK se (standard édition). " expliquation de la difference à venir"_
+  _Nous utiliserons une *JDK SE* (standard édition)._
 
 ==*Installer un JRE sur son poste*==
 <hr/>
