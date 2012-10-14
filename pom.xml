@@ -6,7 +6,7 @@
     <artifactId>la-petite-annonce</artifactId>
     <packaging>pom</packaging>
     <name>Parent</name>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.2</version>
     <url>http://maven.apache.org</url>
 
     <repositories>
@@ -156,8 +156,8 @@
     </dependencyManagement>
 
     <scm>
-    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/trunk</connection>
-    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/trunk</developerConnection>
+    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/la-petite-annonce-0.2</connection>
+    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags/la-petite-annonce-0.2</developerConnection>
     </scm>
 
     <distributionManagement>
@@ -181,7 +181,7 @@
 			<gwt.version>2.4.0</gwt.version>
 			<junit.version>4.8.1</junit.version>
 			<validation-api.version>1.0.0.GA</validation-api.version>
-			<!-- La version 2.6.1 du plugin javadoc invoqu�e par dd�faut par le plugin release bogue sur un release:perform -->
+			<!-- La version 2.6.1 du plugin javadoc invoquée par défaut par le plugin release bogue sur un release:perform -->
 			<javadoc-plugin.version>2.9</javadoc-plugin.version>
 
     </properties>
