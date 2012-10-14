@@ -10,7 +10,6 @@
   # Installer un JRE sur son poste
   # Installer un JDK sur son poste
 
-<hr/>
 ==*Les pré-requis*==
 <hr/>
   * un pc sous Windows
