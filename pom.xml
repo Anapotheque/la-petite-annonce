@@ -104,6 +104,12 @@
 
 		<pluginManagement>
 			<plugins>
+				
+				<plugin>
+          <groupId>net.kindleit</groupId>
+          <artifactId>maven-gae-plugin</artifactId>
+          <version>${gae-plugin.version}</version>
+        </plugin>
 
 			  <plugin>
 					<groupId>org.codehaus.mojo</groupId>
@@ -228,7 +234,7 @@
 
     <dependencyManagement>
 			<dependencies>
-	
+					
 				<dependency>
 			  	<groupId>com.google.gwt</groupId>
 			  	<artifactId>gwt-servlet</artifactId>
@@ -242,7 +248,63 @@
 			  	<version>${gwt.version}</version>
 			 	 	<scope>provided</scope>
 				</dependency>
-	
+				
+        <dependency>
+          <groupId>com.google.appengine</groupId>
+          <artifactId>appengine-api-1.0-sdk</artifactId>
+          <version>${gae.version}</version>
+        </dependency>
+				
+				<dependency>
+        	<groupId>javax.jdo</groupId>
+          <artifactId>jdo2-api</artifactId>
+          <version>${jdo2-api.version}</version>
+          <exclusions>
+	          <exclusion>
+	            <groupId>javax.transaction</groupId>
+	            <artifactId>transaction-api</artifactId>
+	          </exclusion>
+          </exclusions>
+        </dependency>
+				
+				<dependency>
+          <groupId>javax.transaction</groupId>
+          <artifactId>transaction-api</artifactId>
+          <version>${transaction-api.version}</version>
+        </dependency>
+        
+        <dependency>
+          <groupId>com.google.appengine.orm</groupId>
+          <artifactId>datanucleus-appengine</artifactId>
+          <version>${datanucleus-appengine.version}</version>
+        </dependency>
+        
+        <dependency>
+          <groupId>org.datanucleus</groupId>
+          <artifactId>datanucleus-core</artifactId>
+          <version>${datanucleus-core.version}</version>
+          <exclusions>
+            <exclusion>
+              <groupId>javax.transaction</groupId>
+              <artifactId>transaction-api</artifactId>
+            </exclusion>
+          </exclusions>
+        </dependency>
+        
+        <dependency>
+          <groupId>org.datanucleus</groupId>
+          <artifactId>datanucleus-jpa</artifactId>
+          <version>${datanucleus-jpa.version}</version>
+          <scope>runtime</scope>
+        </dependency>
+        
+        <dependency>
+          <groupId>org.apache.geronimo.specs</groupId>
+          <artifactId>geronimo-jpa_3.0_spec</artifactId>
+          <version>${geronimo-jpa.version}</version>
+          <scope>runtime</scope>
+        </dependency>
+
 				<dependency>
 			  	<groupId>javax.validation</groupId>
 			  	<artifactId>validation-api</artifactId>
@@ -288,14 +350,25 @@
 	
     	<webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    	
-			<wagon-svn.version>1.9</wagon-svn.version>
+    	<wagon-svn.version>1.9</wagon-svn.version>
+			
 			<maven-release-plugin.version>2.3.2</maven-release-plugin.version>
-			<gwt.version>2.4.0</gwt.version>
-			<junit.version>4.8.1</junit.version>
-			<validation-api.version>1.0.0.GA</validation-api.version>
 			<!-- La version 2.6.1 du plugin javadoc invoquée par défaut par le plugin release bogue sur un release:perform -->
 			<javadoc-plugin.version>2.9</javadoc-plugin.version>
+			<gae-plugin.version>0.9.4</gae-plugin.version>
+			
+			<gwt.version>2.4.0</gwt.version>
+			<gae.version>1.7.2</gae.version>
+
+			<jdo2-api.version>2.3-eb</jdo2-api.version>
+			<transaction-api.version>1.1</transaction-api.version>
+			<datanucleus-appengine.version>1.0.10</datanucleus-appengine.version>
+			<datanucleus-core.version>1.1.5</datanucleus-core.version>
+			<datanucleus-jpa.version>1.1.5</datanucleus-jpa.version>
+			<geronimo-jpa.version>1.1.1</geronimo-jpa.version>
+			
+			<junit.version>4.8.1</junit.version>
+			<validation-api.version>1.0.0.GA</validation-api.version>
 
     </properties>
 
