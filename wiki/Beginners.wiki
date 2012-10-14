@@ -2,18 +2,18 @@
 
 <img src="http://www.easy-reseau.fr/images/travaux_icone.jpg" width="200" />
 
-<h1 style="color:#D01010">BUILD DU SOCLE</h1>
-<h2>Pre-requis</h2>
-<h3>Windows</h3>
+=BUILD DU SOCLE=
+==Pre-requis==
+<hr/>
 <ul>
-
 <li>[Installation_Java Un environnement Java d'execution et de developpement] sur votre poste</li>
 <li><a href="http://tortoisesvn.net/downloads.html" target="_BLANK">Télécharger Tortoise SVN</a>, choisissez en fonction de votre architecture machine (32 ou 64 bits)</li>
 <li><a href="http://maven.apache.org/download.html" target="_BLANK">Télécharger Maven</a>, utiliser la version 2.2.1 </li>
 <li><a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr1">Télécharger un Eclipse de base</a>, la version Juno est celle que nous utilisons avec Cedric.</li>
 </ul>
 
-<h2>Installation : </h2>
+==Installation==
+<hr/>
 
 Creer un repertoire permetant de stocker votre project.
 Personnellement : c:\developpement\projects\java\
