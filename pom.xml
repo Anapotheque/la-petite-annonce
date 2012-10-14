@@ -100,21 +100,86 @@
 
     </build>
 
-    <modules>
-    	<module>petiteannonce-web</module>
-    	<!--module>bas-drix</module-->
-			<!--module>bas-cris</module-->
-			<!--module>bas-roro</module-->
-			<!--module>bas-frankie</module-->
-			<!--module>bas-albino</module-->
-			<module>bas-aurelien</module>
-			<!--module>bas-drix-gwt</module-->
-			<!--module>bas-cris-gwt</module-->
-			<!--module>bas-roro-gwt</module-->
-			<!--module>bas-frankie-gwt</module-->
-			<!--module>bas-albino-gwt</module-->
-			<module>bas-aurelien-gwt</module>
-    </modules>
+  	<profiles>
+  		
+			<profile>
+			  <id>default</id>
+			  <activation>
+			    <activeByDefault>true</activeByDefault>
+			  </activation>
+        <modules>
+          <module>petiteannonce-web</module>
+        </modules>
+			</profile>
+			  		
+    	<profile>
+      	<id>albino</id>
+	        <modules>
+	          <module>bas-albino</module>
+	          <module>bas-albino-gwt</module>
+	        </modules>
+    	</profile>
+    	
+    	<profile>
+      	<id>aurelien</id>
+	        <modules>
+	          <module>bas-aurelien</module>
+	          <module>bas-aurelien-gwt</module>
+	        </modules>
+    	</profile>
+    	
+    	<profile>
+      	<id>cris</id>
+	        <modules>
+	          <module>bas-cris</module>
+	          <module>bas-cris-gwt</module>
+	        </modules>
+    	</profile>
+    	
+    	<profile>
+      	<id>drix</id>
+	        <modules>
+	          <module>bas-drix</module>
+	          <module>bas-drix-gwt</module>
+	        </modules>
+    	</profile>
+    	
+    	<profile>
+      	<id>frankie</id>
+	        <modules>
+	          <module>bas-frankie</module>
+	          <module>bas-frankie-gwt</module>
+	        </modules>
+    	</profile>
+    	
+    	<profile>
+      	<id>roro</id>
+	        <modules>
+	          <module>bas-roro</module>
+	          <module>bas-roro-gwt</module>
+	        </modules>
+    	</profile>
+    	
+    	<profile>
+      	<id>all</id>
+	        <modules>
+	        	<module>petiteannonce-web</module>
+	        	<module>bas-albino</module>
+	          <module>bas-albino-gwt</module>
+	          <module>bas-aurelien</module>
+	          <module>bas-aurelien-gwt</module>
+	          <module>bas-cris</module>
+	          <module>bas-cris-gwt</module>
+	          <module>bas-drix</module>
+	          <module>bas-drix-gwt</module>
+	          <module>bas-frankie</module>
+	          <module>bas-frankie-gwt</module>
+	          <module>bas-roro</module>
+	          <module>bas-roro-gwt</module>
+	        </modules>
+    	</profile>
+    	
+  	</profiles>
 
     <dependencyManagement>
 			<dependencies>
