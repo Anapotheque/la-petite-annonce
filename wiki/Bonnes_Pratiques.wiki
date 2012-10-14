@@ -6,7 +6,7 @@ _Cette section va regrouper l'ensemble des bonnes pratiques en matière de codin
 <hr/>
 
   * [#Organise_ton_poste_sera Organisé ton poste sera]
-  * [#Indenté_ton_code_sera Indenté ton code sera]
+  * [#Indente_ton_code_sera Indenté ton code sera]
 
 ==Organisé ton poste sera==
 <hr/>
