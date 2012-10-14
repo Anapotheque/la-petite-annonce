@@ -1,10 +1,10 @@
 =INSTALLATION & CONFIGURATION DE JAVA SOUS WINDOWS=
 <hr/>
 
-  # [#Les pré-requis]
-  # [#Les bases]
-  # [#Installer un JRE sur son poste]
-  # [#Installer un JDK sur son poste]
+  # [# Les pré-requis]
+  # [# Les bases]
+  # [# Installer un JRE sur son poste]
+  # [# Installer un JDK sur son poste]
 
 ==*Les pré-requis*==
 <hr/>
