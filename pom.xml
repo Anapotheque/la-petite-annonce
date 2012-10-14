@@ -159,8 +159,8 @@
     </dependencyManagement>
 
     <scm>
-    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags</connection>
-    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/tags</developerConnection>
+    	<connection>scm:svn:https://la-petite-annonce.googlecode.com/svn/trunk</connection>
+    	<developerConnection>scm:svn:https://la-petite-annonce.googlecode.com/svn/trunk</developerConnection>
     </scm>
 
     <distributionManagement>
