@@ -9,8 +9,15 @@
     </parent>
 	
     <artifactId>bas-roro</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <version>0.3-SNAPSHOT</version>
     <name>Bac à sable de Roro</name>
+	
+    <dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+    </dependencies>
     
 </project>
