@@ -13,8 +13,4 @@
     <version>0.3-SNAPSHOT</version>
     <name>Bac à sable de Roro</name>
     
-    <modules>
-		<module>bas-roro-template</module>
-	</modules>
-	
 </project>
