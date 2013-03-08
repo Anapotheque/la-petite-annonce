@@ -1,4 +1,4 @@
-package qualification.speakingInTongues;
+package fr.corpoconcept.petiteannonce.qualification.speakingInTongues;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -14,9 +14,9 @@ public class SpeakingInTongues {
 
     static Map<Character, Character> map = new HashMap<Character, Character>();
 
-    static final String FILE_OUTPUT_NAME = "/src/main/resources/qualification/speakingInTongues/A-small-practice.out";
+    static final String FILE_OUTPUT_NAME = "src/main/resources/fr/corpoconcept/petiteannonce/qualification/speakingInTongues/A-small-practice.out";
 
-    static final String FILE_INPUT_NAME = "/src/main/resources/qualification/speakingInTongues/A-small-practice.in";
+    static final String FILE_INPUT_NAME = "src/main/resources/fr/corpoconcept/petiteannonce/qualification/speakingInTongues/A-small-practice.in";
 
     static FileWriter fw;
 
@@ -53,43 +53,43 @@ public class SpeakingInTongues {
     }
 
     /**
-	 * Methode de traitement du cas
-	 * @return String
-	 */
-    private static String traitement() {
-        String line = scanner.nextLine();
+     * Methode de traitement du cas
+     * 
+     * @return String
+     */
+    protected static String traitement(String line) {
         StringBuffer result = new StringBuffer();
         for (int i = 0; i < line.length(); i++) {
             result.append(map.get(line.charAt(i)));
         }
         return result.toString();
     }
-    
+
     /**
-	 * Methode d'execution classique
-	 * @param args
-	 * @throws IOException 
-	 */
-	public static void main(String[] args) throws IOException {
-		
-		// Ouverture du fichier d'entrées
-		scanner = new Scanner(new File(FILE_INPUT_NAME));
-		
-		// Creation du fichier de sortie
-		output = new BufferedWriter(new FileWriter(FILE_OUTPUT_NAME, false));
-        
-		// Recuperation du nombre de cas
-        int n = new Scanner(scanner.nextLine()).nextInt();
-        
+     * Methode d'execution classique
+     * 
+     * @param args
+     * @throws IOException
+     */
+    public static void main(String[] args) throws IOException {
+
+        // Ouverture du fichier d'entrees
+        scanner = new Scanner(new File(FILE_INPUT_NAME));
+
+        // Creation du fichier de sortie
+        output = new BufferedWriter(new FileWriter(FILE_OUTPUT_NAME, false));
+
         // On boucle sur le nombre de cas possible avec traitement du cas
+        int n = new Scanner(scanner.nextLine()).nextInt();
         for (int i = 1; i <= n; i++) {
-            String resultLine = "Case #" + i + ": " + traitement() + "\n";
+            String resultLine = "Case #" + i + ": " + traitement(scanner.nextLine()) + "\n";
             output.write(resultLine);
             System.out.print(resultLine);
         }
 
-        // transfert des données au fichier et fermeture du fichier
+        // Fermeture des flux et transfert vers fichier de sortie
         output.flush();
         output.close();
-	}
+        scanner.close();
+    }
 }
