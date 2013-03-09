@@ -8,30 +8,51 @@ import java.util.Scanner;
 
 public class DancingGooglers {
 
-    static final String FILE_INPUT_NAME = "/fr/corpoconcept/petiteannonce/qualification/speakingInTongues/A-small-practice.in";
+    static final String FILE_OUTPUT_NAME = "src/main/resources/fr/corpoconcept/petiteannonce/qualification/dancingGooglers/B-small-practice.out";
 
-    static final String FILE_OUTPUT_NAME = "/src/main/resources/qualification/speakingInTongues/A-small-practice.out";
-
-    static Scanner scanner;
-
-    static FileWriter fw;
-
-    static BufferedWriter output;
+    static final String FILE_INPUT_NAME = "src/main/resources/fr/corpoconcept/petiteannonce/qualification/dancingGooglers/B-small-practice.in";
 
     /**
      * Methode de traitement du cas
      * 
      * @return String
      */
-    private static String traitement() {
-        /*
-         * Scanner scannerNumber = new Scanner(scanner.nextLine()); int googlers
-         * = scannerNumber.nextInt(); int suprisingScores =
-         * scannerNumber.nextInt(); int p = scannerNumber.nextInt();
-         * List<Integer> n = new ArrayList<Integer>(); for(int i = 0; i <=
-         * googlers ; i ++){ n.add(scannerNumber.nextInt()); }
-         */
-        return scanner.nextLine();
+    protected static String traitement(String line) {
+
+        Scanner scannerNumber = new Scanner(line);
+        int googlers = scannerNumber.nextInt();
+        int suprisingScores = scannerNumber.nextInt();
+        int bareme = scannerNumber.nextInt();
+        int result = 0;
+
+        // On boucle sur chaque somme de note
+        for (int i = 0; i < googlers; i++) {
+            int somme = scannerNumber.nextInt();
+            int modulo = somme % 3;
+
+            // On affecte les notes de base : somme / 3
+            int[] tripplet = {somme / 3, somme / 3, somme / 3 };
+
+            if (modulo == 1) {
+                tripplet[0] += 1;
+            } else if (modulo == 2) {
+                tripplet[0] += 1;
+                tripplet[1] += 1;
+            }
+
+            if (somme > 2 && somme <= 28 && suprisingScores > 0) {
+                tripplet[1] += 1;
+                tripplet[2] -= 1;
+                suprisingScores--;
+            }
+
+            if (Math.max(Math.max(tripplet[0], tripplet[1]), tripplet[2]) >= bareme) {
+                result++;
+            }
+        }
+
+        scannerNumber.close();
+        return "" + result;
     }
 
     /**
@@ -42,21 +63,23 @@ public class DancingGooglers {
      */
     public static void main(String[] args) throws IOException {
 
-        // Ouverture du fichier d'entrées
-        scanner = new Scanner(new File(FILE_INPUT_NAME));
+        // Ouverture du fichier d'entrees
+        Scanner scanner = new Scanner(new File(FILE_INPUT_NAME));
 
         // Creation du fichier de sortie
-        output = new BufferedWriter(new FileWriter(FILE_OUTPUT_NAME, false));
+        BufferedWriter output = new BufferedWriter(new FileWriter(FILE_OUTPUT_NAME, false));
 
         // On boucle sur le nombre de cas possible avec traitement du cas
-        for (int i = 1; i <= new Scanner(scanner.nextLine()).nextInt(); i++) {
-            String resultLine = "Case #" + i + ": " + traitement() + "\n";
+        int n = Integer.valueOf(scanner.nextLine());
+        for (int i = 1; i <= n; i++) {
+            String resultLine = "Case #" + i + ": " + traitement(scanner.nextLine()) + "\n";
             output.write(resultLine);
             System.out.print(resultLine);
         }
 
-        // transfert des données au fichier et fermeture du fichier
+        // Fermeture des flux et transfert vers fichier de sortie
         output.flush();
         output.close();
+        scanner.close();
     }
 }
