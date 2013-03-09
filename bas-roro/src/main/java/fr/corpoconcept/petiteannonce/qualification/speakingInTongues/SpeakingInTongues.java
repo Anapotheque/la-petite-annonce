@@ -10,17 +10,11 @@ import java.util.Scanner;
 
 public class SpeakingInTongues {
 
-    static Scanner scanner;
-
-    static Map<Character, Character> map = new HashMap<Character, Character>();
-
     static final String FILE_OUTPUT_NAME = "src/main/resources/fr/corpoconcept/petiteannonce/qualification/speakingInTongues/A-small-practice.out";
 
     static final String FILE_INPUT_NAME = "src/main/resources/fr/corpoconcept/petiteannonce/qualification/speakingInTongues/A-small-practice.in";
 
-    static FileWriter fw;
-
-    static BufferedWriter output;
+    static Map<Character, Character> map = new HashMap<Character, Character>();
 
     static {
         map.put(' ', ' ');
@@ -74,13 +68,13 @@ public class SpeakingInTongues {
     public static void main(String[] args) throws IOException {
 
         // Ouverture du fichier d'entrees
-        scanner = new Scanner(new File(FILE_INPUT_NAME));
+        Scanner scanner = new Scanner(new File(FILE_INPUT_NAME));
 
         // Creation du fichier de sortie
-        output = new BufferedWriter(new FileWriter(FILE_OUTPUT_NAME, false));
+        BufferedWriter output = new BufferedWriter(new FileWriter(FILE_OUTPUT_NAME, false));
 
         // On boucle sur le nombre de cas possible avec traitement du cas
-        int n = new Scanner(scanner.nextLine()).nextInt();
+        int n = Integer.valueOf(scanner.nextLine());
         for (int i = 1; i <= n; i++) {
             String resultLine = "Case #" + i + ": " + traitement(scanner.nextLine()) + "\n";
             output.write(resultLine);

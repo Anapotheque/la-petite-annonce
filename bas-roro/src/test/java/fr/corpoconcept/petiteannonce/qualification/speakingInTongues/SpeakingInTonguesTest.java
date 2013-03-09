@@ -6,10 +6,6 @@ import org.junit.Test;
 
 public class SpeakingInTonguesTest {
 
-    static final String FILE_OUTPUT_NAME = "/src/test/resources/qualification/speakingInTongues/A-small-practice.out";
-
-    static final String FILE_INPUT_NAME = "/src/test/resources/qualification/speakingInTongues/A-small-practice.in";
-
     @Test
     public void should_return_good_value_from_google_line_per_line() {
         assertEquals("our language is impossible to understand", SpeakingInTongues.traitement("ejp mysljylc kd kxveddknmc re jsicpdrysi"));
