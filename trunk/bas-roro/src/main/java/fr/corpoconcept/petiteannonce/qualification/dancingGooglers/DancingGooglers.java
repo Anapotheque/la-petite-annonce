@@ -21,18 +21,22 @@ public class DancingGooglers {
 
         Scanner scannerNumber = new Scanner(line);
         int googlers = scannerNumber.nextInt();
-        int suprisingScores = scannerNumber.nextInt();
+        int surprisingNotes = scannerNumber.nextInt();
         int bareme = scannerNumber.nextInt();
-        int result = 0;
+
+        int resultNonSurprenant = 0;
+        int resultSurpenant = 0;
 
         // On boucle sur chaque somme de note
         for (int i = 0; i < googlers; i++) {
             int somme = scannerNumber.nextInt();
+            int moyenne = somme / 3;
             int modulo = somme % 3;
 
             // On affecte les notes de base : somme / 3
-            int[] tripplet = {somme / 3, somme / 3, somme / 3 };
+            int[] tripplet = {moyenne, moyenne, moyenne };
 
+            // On affecte les modulo aux notes
             if (modulo == 1) {
                 tripplet[0] += 1;
             } else if (modulo == 2) {
@@ -40,18 +44,41 @@ public class DancingGooglers {
                 tripplet[1] += 1;
             }
 
-            if (somme > 2 && somme <= 28 && suprisingScores > 0) {
-                tripplet[1] += 1;
-                tripplet[2] -= 1;
-                suprisingScores--;
+            // Incrementation si la note max est superieure au bareme de passage
+            int noteMaxNonSurprenante = Math.max(Math.max(tripplet[0], tripplet[1]), tripplet[2]);
+            if (noteMaxNonSurprenante >= bareme) {
+                resultNonSurprenant++;
             }
 
-            if (Math.max(Math.max(tripplet[0], tripplet[1]), tripplet[2]) >= bareme) {
-                result++;
+            int[] trippletSurprenant = tripplet;
+            if (modulo == 0) {
+                if (somme > 2 && noteMaxNonSurprenante < 10) {
+                    trippletSurprenant[0] += 1;
+                    trippletSurprenant[2] -= 1;
+                }
+            } else if (modulo == 2) {
+                if (surprisingNotes > 0 && noteMaxNonSurprenante < 9) {
+                    trippletSurprenant[0] += 2;
+                    trippletSurprenant[1] -= 1;
+                }
+            }
+
+            // Incrementation si la note max est superieure au bareme de passage
+            int noteMaxSurprenante = Math.max(Math.max(trippletSurprenant[0], trippletSurprenant[1]), trippletSurprenant[2]);
+            if (noteMaxSurprenante >= bareme) {
+                resultSurpenant++;
             }
         }
 
         scannerNumber.close();
+        int result = resultNonSurprenant;
+
+        if (surprisingNotes >= resultSurpenant) {
+            result = +resultSurpenant;
+        } else {
+            result += surprisingNotes;
+        }
+
         return "" + result;
     }
 

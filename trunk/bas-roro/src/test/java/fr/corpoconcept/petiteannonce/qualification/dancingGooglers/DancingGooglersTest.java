@@ -30,4 +30,14 @@ public class DancingGooglersTest {
         assertEquals("1", DancingGooglers.traitement("2 2 6 13 15"));
     }
 
+    @Test
+    public void should_return_good_value_from_google_line_97() {
+        assertEquals("1", DancingGooglers.traitement("2 1 6 14 14"));
+    }
+
+    @Test
+    public void should_return_good_value_from_google_line_10() {
+        assertEquals("2", DancingGooglers.traitement("3 1 3 18 26 1"));
+    }
+
 }
