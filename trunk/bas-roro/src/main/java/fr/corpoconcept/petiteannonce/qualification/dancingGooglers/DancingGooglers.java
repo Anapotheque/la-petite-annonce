@@ -52,15 +52,15 @@ public class DancingGooglers {
 
             int noteMaxSurprenante = moyenne;
             if (modulo == 0) {
-                if (somme > 2 && noteMaxNonSurprenante < 10) {
+                if (somme > 2 && noteMaxSurprenante < 10) {
                     noteMaxSurprenante += 1;
                 }
             } else if (modulo == 1) {
-                if (somme > 2 && noteMaxNonSurprenante < 10) {
+                if (noteMaxSurprenante < 10) {
                     noteMaxSurprenante += 1;
                 }
             } else if (modulo == 2) {
-                if (noteMaxNonSurprenante < 9) {
+                if (noteMaxSurprenante < 9) {
                     noteMaxSurprenante += 2;
                 }
             }
@@ -69,6 +69,7 @@ public class DancingGooglers {
             if (noteMaxSurprenante >= bareme) {
                 resultSurpenant++;
             }
+
         }
 
         int result = resultNonSurprenant + surprisingNotes;
