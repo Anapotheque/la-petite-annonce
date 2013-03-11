@@ -4,7 +4,11 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.LinkedHashSet;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeMap;
 
 public class RecycledNumbers {
 
@@ -27,7 +31,8 @@ public class RecycledNumbers {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        int y = 0;
+        Map<Integer, Set<Integer>> sortedMap = new TreeMap<Integer, Set<Integer>>();
+
         if (a >= 10) {
 
             for (int i = a; i <= b; i++) {
@@ -35,13 +40,25 @@ public class RecycledNumbers {
                 String n = String.valueOf(i);
                 int longueur = n.length();
 
+                Set<Integer> listPair = new LinkedHashSet<Integer>();
+
                 for (int j = 1; j < longueur; j++) {
                     int m = Integer.valueOf((String ) n.subSequence(j, longueur) + (String ) n.subSequence(0, j));
                     if (a <= Integer.valueOf(n) && Integer.valueOf(n) < m && m <= b) {
-                        y++;
+                        listPair.add(m);
                     }
                 }
+                if (!listPair.isEmpty()) {
+                    sortedMap.put(Integer.valueOf(n), listPair);
+                }
             }
+        }
+
+        int y = 0;
+        // System.out.print("\n" + a + " - " + b + " - " + sortedMap.size());
+        for (Integer n : sortedMap.keySet()) {
+            // System.out.print(" (" + n + "," + sortedMap.get(n) + ")");
+            y += sortedMap.get(n).size();
         }
 
         scanner.close();
