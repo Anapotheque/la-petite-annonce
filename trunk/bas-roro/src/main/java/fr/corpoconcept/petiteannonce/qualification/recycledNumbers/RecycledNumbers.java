@@ -85,9 +85,9 @@ public class RecycledNumbers {
             String resultLine = "Case #" + i + ": " + traitement(scanner.nextLine()) + "\n";
             output.write(resultLine);
             System.out.print(resultLine);
+            output.flush();
         }
 
-        output.flush();
         output.close();
         scanner.close();
 
@@ -103,9 +103,9 @@ public class RecycledNumbers {
             String resultLine = "Case #" + i + ": " + traitement(scanner.nextLine()) + "\n";
             output.write(resultLine);
             System.out.print(resultLine);
+            output.flush();
         }
 
-        output.flush();
         output.close();
         scanner.close();
     }
