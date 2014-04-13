@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -67,11 +68,6 @@ public class CookieClicker {
     		double timingForBuyFarm = calculTimingForBuyFarm(nombreFarm-1);
     		total = timingForBuyFarm + calculTimingForWin(nombreFarm);
     		if(format(getRecord()) >= format(total)){
-    			
-    			if(format(getRecord()) - format(total) < 0.001){
-    				nombreFarm ++;
-    			}
-    			
     			result.put(nombreFarm, total);
     		}else{
     			break;
@@ -110,6 +106,8 @@ public class CookieClicker {
      */
     public static void main(String[] args) throws IOException {
 
+    	java.util.Date uDate = new java.util.Date (System.currentTimeMillis ()); //Relever l'heure avant le debut du progamme (en milliseconde) 
+    	
     	// -----------------------------------------------------------------------------------
         // CAS SAMPLE
         // -----------------------------------------------------------------------------------
@@ -133,8 +131,8 @@ public class CookieClicker {
         // -----------------------------------------------------------------------------------
 //        Scanner scanner = new Scanner(new File(FILE_SMALL_INPUT_NAME));
 //        BufferedWriter output = new BufferedWriter(new FileWriter(FILE_SMALL_OUTPUT_NAME, false));
-//
-//        // On boucle sur le nombre de cas possible avec traitement du cas
+
+        // On boucle sur le nombre de cas possible avec traitement du cas
 //        int n = Integer.valueOf(scanner.nextLine());
 //        for (int i = 1; i <= n; i++) {
 //            String resultLine = "Case #" + i + ": " + traitement(scanner.nextLine()) + "\n";
@@ -163,6 +161,15 @@ public class CookieClicker {
         output.flush();
         output.close();
         scanner.close();
+        
+        Date dateFin = new Date (System.currentTimeMillis()); //Relever l'heure a la fin du progamme (en milliseconde) 
+        Date duree = new Date (System.currentTimeMillis()); //Pour calculer la différence
+        duree.setTime (dateFin.getTime () - uDate.getTime ());  //Calcul de la différence
+        long secondes = duree.getTime () / 1000;
+        long min = secondes / 60;
+        long heures = min / 60;
+        long mili = duree.getTime () % 1000;
+        secondes %= 60;
+        System.out.println ("Durée du traitement : " + heures + " h " + min + " min " + secondes + " sec " + mili + " milli");
     }
-	
 }
