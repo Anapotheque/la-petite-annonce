@@ -1,0 +1,92 @@
+<h1>....PAGE EN COURS DE CONSTRUCTION...</h1>
+
+<img src='http://www.easy-reseau.fr/images/travaux_icone.jpg' width='200' />
+
+# BUILD DU SOCLE #
+## Pre-requis ##
+
+
+&lt;hr/&gt;
+
+
+<ul>
+<li><a href='Bonnes_Pratiques.md'>Bonnes pratiques</a>, lire la partie pour l'organisation logicielle</li>
+<li><a href='Installation_Java.md'>Un environnement Java d'execution et de developpement</a> sur votre poste</li>
+<li><a href='http://tortoisesvn.net/downloads.html'>Télécharger Tortoise SVN</a>, choisissez en fonction de votre architecture machine (32 ou 64 bits)</li>
+<li><a href='http://maven.apache.org/download.html'>Télécharger Maven</a>, utiliser la version 2.2.1 </li>
+<li><a href='http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr1'>Télécharger un Eclipse de base</a>, la version Juno est celle que nous utilisons avec Cedric.</li>
+</ul>
+
+## Installation de la JToolBox ##
+
+
+&lt;hr/&gt;
+
+
+
+La JToolBox va vous permettre de lancer une invite de commande afin de lancer des actions avec un paramétrage facile à mettre en place.
+
+### Telechargement ###
+
+<a href='http://la-petite-annonce.googlecode.com/svn/trunk/tools/JToolBox/JToolBox.bat'>Telecharger la JToolBox</a>.
+Enregistrez le fichier à la racine de /developpement/tools/ par exemple.
+Il sera votre point d'entrée pour tout le projet.
+
+### Configuration ###
+
+Vous devez remplacer les chemins des variables dans le fichier
+```
+@REM : Directory : lieu ou la console se place à l'ouverture ( je l'ai mis sur mon project par exemple )
+set DIRECTORY=C:\Developpement\projects\
+
+@REM : JAVA_HOME : Permet de switch d'une JDK 1.5 à une autre 1.7 par exemple
+set JAVA_HOME=C:\Developpement\tools\java\jdk
+
+@REM : M2_HOME : Permet de switch d'un maven 2.2.1 à un maven 3.0 par exemple
+set M2_HOME=C:\Developpement\tools\maven
+
+@REM : Configuration de maven en terme de proxy, repo distant tout ça ( à venir ) pour le moment ne mettez rien ça gene pas
+set GLOBAL_SETTINGS=C:\Developpement\tools\settings\maven\global\settings.xml
+set USER_SETTINGS=C:\Developpement\tools\settings\maven\users\settings.xml
+```
+
+## Recuperation du projet ##
+
+
+&lt;hr/&gt;
+
+
+
+Creer un repertoire permetant de stocker votre project.
+Personnellement : c:\developpement\projects\
+
+<i>Recuperation du project sur le repository distant Google : ( lancer la jToolBox</i>
+```
+svn co https://la-petite-annonce.googlecode.com/svn/trunk/
+```
+<i>Récupérer le password pour les commit (lien 'googlecode.com password')</i>
+```
+https://code.google.com/p/la-petite-annonce/source/checkout
+```
+
+_Compilation du project :_
+```
+mvn clean install 
+```
+
+<i>Si la compilation tombe en erreur lors des tests unitaires faites :<br>
+Cette commande permet de skipper les tests unitaires mais c'est un cas qui normalement ne doit pas se produire sauf si qqun à commité n'importe quoi</i>
+```
+mvn clean install -Dmaven.test.skip
+```
+
+<i>Permet de gerer les dependances ( librairie, project etc etc ) avec eclipse.<br>
+</i>
+```
+mvn eclipse:eclipse
+```
+
+<i>Permet de deployer l'ensemble du project sur le repository : "<a href='https://la-petite-annonce.googlecode.com/svn/repo/'>https://la-petite-annonce.googlecode.com/svn/repo/</a>" </i>
+```
+mvn deploy
+```

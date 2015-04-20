@@ -1,0 +1,83 @@
+# TUTORIEL JAVA 1 : Gestion de compte Bancaire #
+
+## Énoncé ##
+
+
+&lt;hr/&gt;
+
+
+_Ecrire un programme java permettant d'afficher le menu suivant_
+
+  * Un compte bancaire créé à besoin d'un libelle et d'un montant de base qui sera par défaut à 100€ mais pourra être changé par l'utilisateur au moment de la création uniquement.
+  * Vous devrez bien séparé les parties métier, controleur vue ( log ici). ( pour vous aidez, le projet doit posséder 3 Packages : model, contrôleur, vue )
+
+  * Chaque acte ( credit - debit ) devra stocker la date - le montant ( optionnel : cas de la suppression de compte ) et un libelle ( optionnel )
+
+  * Enchainement des ecrans :
+
+> Si aucun compte n'a été créé afficher le message suivant :
+
+```
+  // -----------------------------------
+  // --         MyCompte V1.0         --
+  // -----------------------------------
+  // Veuillez choisir l'une des actions : 
+  // 1 : Créer un compte bancaire
+  // 2 : Quitter
+  // -----------------------------------
+  > { selection user }
+```
+
+> Sinon
+
+```
+  // -----------------------------------
+  // --         MyCompte V1.0         --
+  // -----------------------------------
+  // Veuillez choisir l'une des actions : 
+  // 1 : Créer un nouveau compte bancaire  
+  // x : Afficher détail du compte - {libelle du compte} :{ liste des comptes }
+  // x+1 : Quitter
+  // -----------------------------------
+  > { selection user }
+```
+
+> Si vous sélectionner un compte bancaire :
+
+```
+  // -----------------------------------
+  // --         MyCompte V1.0         --
+  // --      {libelle du compte}      --
+  // -----------------------------------
+  // Veuillez choisir l'une des actions : 
+  // 1 : Afficher l'historique du compte
+  // 2 : Créditer le compte
+  // 3 : Débiter le compte
+  // 4 : Supprimer le compte
+  // 6 : Retour à la liste des comptes
+  // 5 : Quitter
+  // -----------------------------------
+  > { selection user }
+```
+
+## Section travaillée ##
+
+
+&lt;hr/&gt;
+
+
+  * Classe - Heritage - Interface ( la partie interface est pour le moment non obligatoire mais nous verrons comment rendre leurs utilisation indispensable pour la suite).
+  * log : system.out / system.in
+  * List - Set - Map
+  * attribut static et final
+  * Conception de POJO
+  * Design pattern MVC ( model vue controleur ).
+
+## Correction ##
+
+
+&lt;hr/&gt;
+
+
+
+En attente...

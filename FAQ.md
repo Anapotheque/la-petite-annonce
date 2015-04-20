@@ -1,0 +1,26 @@
+# FAQ #
+
+_Vous trouverez ici, des exemples de cas rencontrés durant l'installation et l'exploitation de la plateforme de developpement " **DRIXXOR** "_
+
+_Vous pouvez egalement soumettre vos problèmes en ajoutant le detail de ce que vous souhaitez faire et ce qui ne marche pas ( ajouter une ligne dans le sommaire marqué "non résolue"_
+
+## Sommaire ##
+
+  * Impossible de faire un _check-out_ depuis mon poste des sources
+
+
+---
+
+### Impossible de faire un _check-out_ depuis mon poste des sources ###
+
+```
+svn co https://la-petite-annonce.googlecode.com/svn/trunk/
+svn: OPTIONS de 'https://la-petite-annonce.googlecode.com/svn/trunk': Impossible de se connecter au serveur (https://la-petite-annonce.googlecode.com)
+```
+
+Solution :
+
+Je pense que je suis derrière un pare feu qui me bloque l'accès...
+
+
+---

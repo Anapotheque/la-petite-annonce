@@ -1,0 +1,1 @@
+Mise en place d'un site de petites annonces en se basant sur les technologies google (gwt, appengine, api google)
